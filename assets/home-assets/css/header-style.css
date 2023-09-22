@@ -1,0 +1,130 @@
+/*Custom Font Quick Sand Start*/
+@font-face {
+	font-family: "quickSandB";
+	src: url(../fonts/Quicksand-Bold.ttf) format('truetype');
+}
+@font-face{
+	font-family:"quickSandR" ;
+	src: url(../fonts/Quicksand-Regular.ttf) format('truetype');
+}
+@font-face{
+	font-family:"quickSandM" ;
+	src: url(../fonts/Quicksand-Medium.ttf) format('truetype');
+}
+@font-face{
+	font-family: "quickSandS" ;
+	src: url(../fonts/Quicksand-SemiBold.ttf) format('truetype');
+}
+
+/*Custom Font Quick Sand End*/
+
+/*Navbar Start*/
+
+.navbar-top {
+    background-color: #18A362;
+    color: #FFF;
+	border-radius: 0 !important;
+	max-height: 40px;
+}
+.email-top {
+    padding-right: 15px;
+}
+
+.welcome-msg-top {
+    font-size: 14px;
+    font-family: 'quickSandS';
+}
+
+.navbar-default {
+    background-color: #1B2023;
+    border-color: #1B2023;
+    border-radius: 0 !important;
+	
+}
+
+.navbar {
+    margin-bottom: 0;
+	padding: 15px;
+}
+.navbar-nav {
+    float: right;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	background-color: #222;
+	color: #fff !important;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+	background-color: transparent;
+}
+.navbar-nav li a {
+    color: #55FCAE !important;
+    font-size: 14px;
+    font-family: 'quickSandS';
+}
+.btn-selling {
+    background-color: #19A463;
+    padding: 10px 10px !important;
+    
+}
+.nav-item .btn-selling {
+    color: #fff !important;
+}
+.navbar-nav li a:hover,.navbar-nav li a:active {
+	color: #4E4E4E;
+}
+.navbar-nav .dropdown-menu > li > a{
+	color: #4E4E4E !important;
+}
+
+.navbar-header .btn-selling {
+    display: none;
+}
+/*Navbar End*/
+
+@media screen and (max-width: 776px){
+	
+	html, body {
+    overflow-x: hidden;
+    }
+	.tags-wrap{
+		flex-wrap: nowrap;
+		    margin-top: 1.5em;
+	}
+	#main-slider-wrapper .slick-slide img{
+		margin: 0 auto;
+	}
+	.btn-selling {
+    
+    float: none;
+    position: absolute;
+    right: 7em;
+    top: 0.7em;
+		color: #fff;
+    }
+	.navbar-default .navbar-toggle {
+    
+    float: none;
+    position: absolute;
+    right: 0;
+    }
+	.navbar {
+    
+    padding: 7px;
+    }
+	.navbar-collapse .btn-selling {
+    display: none;
+    }
+	.navbar-collapse{
+		float: left;
+	}
+	.navbar-top {
+    display: none;
+    }
+	.header-wrapper .map-block{
+		display: none;
+	}
+	.col-with-imgs {
+    display: none;
+    }
+
+}

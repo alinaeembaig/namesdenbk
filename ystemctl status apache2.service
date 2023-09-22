@@ -1,0 +1,1493 @@
+-- Logs begin at Tue 2022-09-06 08:18:08 PKT, end at Sat 2023-01-28 05:21:31 PKT. --
+Jan 28 04:32:34 wadic-cad101 gsd-color[3656]: [0;1;39m[0;1;31m[0;1;39mfailed to set screen _ICC_PROFILE: Failed to open file “/home/bilal/.local/share/icc/edid-ac87a3fe93114469bcde91cf5e39b2a8.icc”: Permission denied[0m
+Jan 28 04:32:35 wadic-cad101 gsd-sharing[4259]: [0;1;39m[0;1;31m[0;1;39mFailed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.[0m
+Jan 28 04:32:35 wadic-cad101 gsd-sharing[4259]: [0;1;39m[0;1;31m[0;1;39mFailed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.[0m
+Jan 28 04:32:35 wadic-cad101 gsd-sharing[4259]: [0;1;39m[0;1;31m[0;1;39mFailed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.[0m
+Jan 28 04:32:35 wadic-cad101 gnome-session-binary[3981]: [0;1;39m[0;1;31m[0;1;39mEntering running state[0m
+Jan 28 04:32:35 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Activating via systemd: service name='org.gnome.evolution.dataserver.Calendar7' unit='evolution-calendar-factory.service' requested by ':1.34' (uid=1000 pid=4177 comm="/usr/lib/gnome-shell/gnome-shell-calendar-server " label="unconfined")
+Jan 28 04:32:35 wadic-cad101 systemd[3919]: Starting Evolution calendar service...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has begun starting up.
+Jan 28 04:32:35 wadic-cad101 anydesk[4350]: [0;1;39m[0;1;31m[0;1;39mFailed to load module "canberra-gtk-module"[0m
+Jan 28 04:32:35 wadic-cad101 gnome-shell[4110]: [0;1;39m[0;1;31m[0;1;39mError looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation[0m
+Jan 28 04:32:35 wadic-cad101 gsd-color[3656]: [0;1;39m[0;1;31m[0;1;39mfailed to set screen _ICC_PROFILE: Failed to open file “/home/bilal/.local/share/icc/edid-ac87a3fe93114469bcde91cf5e39b2a8.icc”: Permission denied[0m
+Jan 28 04:32:36 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Activating service name='org.freedesktop.FileManager1' requested by ':1.61' (uid=1000 pid=4347 comm="nautilus-desktop " label="unconfined")
+Jan 28 04:32:36 wadic-cad101 gnome-shell[4110]: GNOME Shell started at Sat Jan 28 2023 04:32:34 GMT+0500 (PKT)
+Jan 28 04:32:36 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Successfully activated service 'org.freedesktop.FileManager1'
+Jan 28 04:32:37 wadic-cad101 kernel: [0;1;39m[0;1;31m[0;1;39mamdgpu: [powerplay] VI should always have 2 performance levels[0m
+Jan 28 04:32:37 wadic-cad101 kernel: amdgpu 0000:0a:00.0: GPU pci config reset
+Jan 28 04:32:37 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Successfully activated service 'org.gnome.evolution.dataserver.Calendar7'
+Jan 28 04:32:37 wadic-cad101 systemd[3919]: Started Evolution calendar service.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:32:37 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Activating via systemd: service name='org.gnome.evolution.dataserver.AddressBook9' unit='evolution-addressbook-factory.service' requested by ':1.66' (uid=1000 pid=4414 comm="/usr/lib/evolution/evolution-calendar-factory-subp" label="unconfined")
+Jan 28 04:32:37 wadic-cad101 systemd[3919]: Starting Evolution address book service...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has begun starting up.
+Jan 28 04:32:38 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Successfully activated service 'org.gnome.evolution.dataserver.AddressBook9'
+Jan 28 04:32:38 wadic-cad101 systemd[3919]: Started Evolution address book service.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:32:38 wadic-cad101 nautilus-deskto[4347]: [0;1;39m[0;1;31m[0;1;39mCalled "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)[0m
+Jan 28 04:32:38 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.61' (uid=1000 pid=4347 comm="nautilus-desktop " label="unconfined")
+Jan 28 04:32:38 wadic-cad101 systemd[3919]: Starting Virtual filesystem metadata service...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has begun starting up.
+Jan 28 04:32:38 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Successfully activated service 'org.gtk.vfs.Metadata'
+Jan 28 04:32:38 wadic-cad101 systemd[3919]: Started Virtual filesystem metadata service.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:33:03 wadic-cad101 systemd[1]: Starting Stop ureadahead data collection...
+-- Subject: Unit ureadahead-stop.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit ureadahead-stop.service has begun starting up.
+Jan 28 04:33:03 wadic-cad101 systemd[1]: Started Stop ureadahead data collection.
+-- Subject: Unit ureadahead-stop.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit ureadahead-stop.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:33:37 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mplugin appstream took 2.2 seconds to do setup[0m
+Jan 28 04:33:37 wadic-cad101 gnome-software[4551]: enabled plugins: fwupd, desktop-categories, ubuntuone, packagekit-refine-repos, packagekit-upgrade, systemd-updates, packagekit, packagekit-local, os-release, shell-extensions, packagekit-url-to-app, packagekit-proxy, packagekit-refresh, packagekit-offline, appstream, odrs, modalias, desktop-menu-path, rewrite-resource, hardcoded-popular, hardcoded-blacklist, hardcoded-featured, packagekit-refine, steam, generic-updates, packagekit-history, snap, provenance, icons, provenance-license, key-colors, key-colors-metadata
+Jan 28 04:33:37 wadic-cad101 gnome-software[4551]: disabled plugins: repos, dummy, dpkg, epiphany
+Jan 28 04:33:37 wadic-cad101 dbus-daemon[1178]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.115' (uid=1000 pid=4551 comm="/usr/bin/gnome-software --gapplication-service " label="unconfined")
+Jan 28 04:33:37 wadic-cad101 systemd[1]: Starting Firmware update daemon...
+-- Subject: Unit fwupd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit fwupd.service has begun starting up.
+Jan 28 04:33:40 wadic-cad101 dbus-daemon[1178]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Jan 28 04:33:40 wadic-cad101 systemd[1]: Started Firmware update daemon.
+-- Subject: Unit fwupd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit fwupd.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:33:42 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[0128/043342.993606:ERROR:file_io_posix.cc(152)] open /home/bilal/.config/google-chrome/Crash Reports/pending/bec82752-d818-4b05-a113-62099816b669.lock: File exists (17)[0m
+Jan 28 04:33:46 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.74' (uid=1000 pid=4601 comm="/opt/google/chrome/chrome --enable-crashpad " label="unconfined")
+Jan 28 04:33:46 wadic-cad101 systemd[3919]: Starting Portal service...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has begun starting up.
+Jan 28 04:33:46 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.75' (uid=1000 pid=4665 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+Jan 28 04:33:46 wadic-cad101 systemd[3919]: Starting flatpak document portal service...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has begun starting up.
+Jan 28 04:33:46 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Successfully activated service 'org.freedesktop.portal.Documents'
+Jan 28 04:33:46 wadic-cad101 systemd[3919]: Started flatpak document portal service.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:33:46 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.75' (uid=1000 pid=4665 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+Jan 28 04:33:46 wadic-cad101 systemd[3919]: Starting Portal service (GTK+/GNOME implementation)...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has begun starting up.
+Jan 28 04:33:46 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+Jan 28 04:33:46 wadic-cad101 systemd[3919]: Started Portal service (GTK+/GNOME implementation).
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:33:46 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Successfully activated service 'org.freedesktop.portal.Desktop'
+Jan 28 04:33:46 wadic-cad101 systemd[3919]: Started Portal service.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:33:47 wadic-cad101 gnome-keyring-daemon[3948]: [0;1;39m[0;1;31m[0;1;39masked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered[0m
+Jan 28 04:33:47 wadic-cad101 kernel: [drm] PCIE GART of 256M enabled (table at 0x000000F400000000).
+Jan 28 04:33:47 wadic-cad101 kernel: [0;1;39m[0;1;31m[0;1;39mamdgpu: [powerplay] can't get the mac of 5[0m
+Jan 28 04:33:47 wadic-cad101 kernel: [0;1;31m[0;1;39m[0;1;31mamdgpu: [powerplay] VBIOS did not find boot engine clock value in dependency table. Using Memory DPM level 0![0m
+Jan 28 04:33:54 wadic-cad101 PackageKit[3645]: get-updates transaction /5351_debdadae from uid 1000 finished with success after 14219ms
+Jan 28 04:33:54 wadic-cad101 kernel: [0;1;39m[0;1;31m[0;1;39mamdgpu: [powerplay] VI should always have 2 performance levels[0m
+Jan 28 04:33:55 wadic-cad101 kernel: amdgpu 0000:0a:00.0: GPU pci config reset
+Jan 28 04:33:55 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mOnly 0 apps for recent list, hiding[0m
+Jan 28 04:33:57 wadic-cad101 pkexec[4884]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 28 04:33:57 wadic-cad101 pkexec[4884]: [0;1;39m[0;1;31m[0;1;39mbilal: Executing command [USER=root] [TTY=unknown] [CWD=/home/bilal] [COMMAND=/usr/lib/update-notifier/package-system-locked][0m
+Jan 28 04:33:58 wadic-cad101 gnome-shell[4110]: [0;1;39m[0;1;31m[0;1;39m[AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.70/org/ayatana/NotificationItem/software_update_available[0m
+Jan 28 04:33:58 wadic-cad101 gnome-shell[4110]: [0;1;39m[0;1;31m[0;1;39m[AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.70/org/ayatana/NotificationItem/livepatch[0m
+Jan 28 04:33:59 wadic-cad101 PackageKit[3645]: resolve transaction /5352_aacdccee from uid 1000 finished with success after 852ms
+Jan 28 04:34:42 wadic-cad101 PackageKit[3645]: search-file transaction /5353_baccebce from uid 1000 finished with success after 42841ms
+Jan 28 04:34:43 wadic-cad101 PackageKit[3645]: search-file transaction /5354_dceaceba from uid 1000 finished with success after 626ms
+Jan 28 04:34:44 wadic-cad101 PackageKit[3645]: search-file transaction /5355_dacaccca from uid 1000 finished with success after 627ms
+Jan 28 04:34:44 wadic-cad101 PackageKit[3645]: search-file transaction /5356_ddbbbedd from uid 1000 finished with success after 685ms
+Jan 28 04:34:45 wadic-cad101 PackageKit[3645]: search-file transaction /5357_aadcddde from uid 1000 finished with success after 710ms
+Jan 28 04:34:46 wadic-cad101 PackageKit[3645]: search-file transaction /5358_ccbddeca from uid 1000 finished with success after 657ms
+Jan 28 04:34:47 wadic-cad101 PackageKit[3645]: search-file transaction /5359_edcaadda from uid 1000 finished with success after 651ms
+Jan 28 04:34:47 wadic-cad101 PackageKit[3645]: search-file transaction /5360_cbdebbea from uid 1000 finished with success after 644ms
+Jan 28 04:34:48 wadic-cad101 PackageKit[3645]: search-file transaction /5361_eaabeeed from uid 1000 finished with success after 655ms
+Jan 28 04:34:49 wadic-cad101 PackageKit[3645]: search-file transaction /5362_daeebeed from uid 1000 finished with success after 646ms
+Jan 28 04:34:50 wadic-cad101 PackageKit[3645]: get-details transaction /5363_dcbacaac from uid 1000 finished with success after 789ms
+Jan 28 04:34:51 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mFailed to load snap icon: local snap has no icon[0m
+Jan 28 04:34:51 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mFailed to load snap icon: local snap has no icon[0m
+Jan 28 04:34:51 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mFailed to load snap icon: local snap has no icon[0m
+Jan 28 04:34:51 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mFailed to load snap icon: local snap has no icon[0m
+Jan 28 04:34:52 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mFailed to load snap icon: local snap has no icon[0m
+Jan 28 04:34:52 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mFailed to load snap icon: local snap has no icon[0m
+Jan 28 04:34:52 wadic-cad101 gnome-shell[4110]: [0;1;39m[0;1;31m[0;1;39mJS ERROR: Exception in callback for signal: position-changed: TypeError: this._rect is null[0m
+                                                [0;1;39mgetCurrentRect@resource:///org/gnome/shell/ui/keyboard.js:561:22[0m
+                                                [0;1;39mwrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22[0m
+                                                [0;1;39m_onFocusPositionChanged@resource:///org/gnome/shell/ui/keyboard.js:643:20[0m
+                                                [0;1;39mwrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22[0m
+                                                [0;1;39m_emit@resource:///org/gnome/gjs/modules/signals.js:128:27[0m
+                                                [0;1;39m_setCurrentWindow/this._currentWindowPositionId<@resource:///org/gnome/shell/ui/keyboard.js:535:21[0m
+Jan 28 04:34:52 wadic-cad101 gnome-shell[4110]: [0;1;39m[0;1;31m[0;1;39mJS ERROR: Exception in callback for signal: position-changed: TypeError: this._rect is null[0m
+                                                [0;1;39mgetCurrentRect@resource:///org/gnome/shell/ui/keyboard.js:561:22[0m
+                                                [0;1;39mwrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22[0m
+                                                [0;1;39m_onFocusPositionChanged@resource:///org/gnome/shell/ui/keyboard.js:643:20[0m
+                                                [0;1;39mwrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22[0m
+                                                [0;1;39m_emit@resource:///org/gnome/gjs/modules/signals.js:128:27[0m
+                                                [0;1;39m_setCurrentWindow/this._currentWindowPositionId<@resource:///org/gnome/shell/ui/keyboard.js:535:21[0m
+Jan 28 04:35:01 wadic-cad101 CRON[5200]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 04:35:01 wadic-cad101 CRON[5208]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 28 04:35:01 wadic-cad101 CRON[5200]: pam_unix(cron:session): session closed for user root
+Jan 28 04:36:48 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39mError in cpuinfo: failed to parse processor information from /proc/cpuinfo[0m
+Jan 28 04:36:53 wadic-cad101 gnome-shell[4110]: [0;1;39m[0;1;31m[0;1;39mSome code accessed the property 'WindowPreviewMenu' on the module 'windowPreview'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.[0m
+Jan 28 04:36:59 wadic-cad101 dbus-daemon[1178]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.42' (uid=0 pid=1416 comm="/usr/lib/snapd/snapd " label="unconfined")
+Jan 28 04:36:59 wadic-cad101 dbus-daemon[1178]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Jan 28 04:36:59 wadic-cad101 systemd[1]: Starting Time & Date Service...
+-- Subject: Unit systemd-timedated.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-timedated.service has begun starting up.
+Jan 28 04:36:59 wadic-cad101 systemd[1]: Started Time & Date Service.
+-- Subject: Unit systemd-timedated.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-timedated.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:37:06 wadic-cad101 systemd-logind[1150]: Suspend key pressed.
+Jan 28 04:37:06 wadic-cad101 NetworkManager[1390]: <info>  [1674862626.0834] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Jan 28 04:37:06 wadic-cad101 NetworkManager[1390]: <info>  [1674862626.0835] device (enp8s0): state change: unavailable -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Jan 28 04:37:06 wadic-cad101 gnome-shell[2731]: [0;1;39m[0;1;31m[0;1;39mScreen lock is locked down, not locking[0m
+Jan 28 04:37:06 wadic-cad101 NetworkManager[1390]: <info>  [1674862626.1067] device (74:EF:4B:4C:6D:94): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Jan 28 04:37:06 wadic-cad101 NetworkManager[1390]: <info>  [1674862626.1069] manager: NetworkManager state is now ASLEEP
+Jan 28 04:37:06 wadic-cad101 NetworkManager[1390]: <info>  [1674862626.1074] device (wlo1): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+Jan 28 04:37:06 wadic-cad101 whoopsie[2550]: [04:37:06] offline
+Jan 28 04:37:06 wadic-cad101 dbus-daemon[1178]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.15' (uid=0 pid=1390 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jan 28 04:37:06 wadic-cad101 NetworkManager[1390]: <info>  [1674862626.2043] device (wlo1): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+Jan 28 04:37:06 wadic-cad101 avahi-daemon[1141]: Withdrawing address record for fe80::cd01:160e:f4b8:7f79 on wlo1.
+Jan 28 04:37:06 wadic-cad101 avahi-daemon[1141]: Leaving mDNS multicast group on interface wlo1.IPv6 with address fe80::cd01:160e:f4b8:7f79.
+Jan 28 04:37:06 wadic-cad101 avahi-daemon[1141]: Interface wlo1.IPv6 no longer relevant for mDNS.
+Jan 28 04:37:06 wadic-cad101 systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+Jan 28 04:37:06 wadic-cad101 NetworkManager[1390]: <info>  [1674862626.2245] dhcp4 (wlo1): canceled DHCP transaction, DHCP client pid 2305
+Jan 28 04:37:06 wadic-cad101 NetworkManager[1390]: <info>  [1674862626.2245] dhcp4 (wlo1): state changed bound -> done
+Jan 28 04:37:06 wadic-cad101 avahi-daemon[1141]: Withdrawing address record for 192.168.0.103 on wlo1.
+Jan 28 04:37:06 wadic-cad101 avahi-daemon[1141]: Leaving mDNS multicast group on interface wlo1.IPv4 with address 192.168.0.103.
+Jan 28 04:37:06 wadic-cad101 avahi-daemon[1141]: Interface wlo1.IPv4 no longer relevant for mDNS.
+Jan 28 04:37:06 wadic-cad101 NetworkManager[1390]: <info>  [1674862626.2278] device (wlo1): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Jan 28 04:37:06 wadic-cad101 kernel: wlo1: deauthenticating from 50:0f:f5:a2:b8:89 by local choice (Reason: 3=DEAUTH_LEAVING)
+Jan 28 04:37:06 wadic-cad101 wpa_supplicant[1389]: [0;1;39m[0;1;31m[0;1;39mwlo1: CTRL-EVENT-DISCONNECTED bssid=50:0f:f5:a2:b8:89 reason=3 locally_generated=1[0m
+Jan 28 04:37:06 wadic-cad101 wpa_supplicant[1389]: [0;1;39m[0;1;31m[0;1;39mwlo1: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD[0m
+Jan 28 04:37:06 wadic-cad101 gsd-sharing[4259]: [0;1;39m[0;1;31m[0;1;39mFailed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.[0m
+Jan 28 04:37:06 wadic-cad101 gsd-sharing[4259]: [0;1;39m[0;1;31m[0;1;39mFailed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.[0m
+Jan 28 04:37:06 wadic-cad101 gsd-sharing[4259]: [0;1;39m[0;1;31m[0;1;39mFailed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.[0m
+Jan 28 04:37:06 wadic-cad101 wpa_supplicant[1389]: [0;1;39m[0;1;31m[0;1;39mnl80211: deinit ifname=p2p-dev-wlo1 disabled_11b_rates=0[0m
+Jan 28 04:37:06 wadic-cad101 dbus-daemon[1178]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 28 04:37:06 wadic-cad101 systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:37:06 wadic-cad101 nm-dispatcher[5458]: req:1 'connectivity-change': new request (1 scripts)
+Jan 28 04:37:06 wadic-cad101 nm-dispatcher[5458]: req:1 'connectivity-change': start running ordered scripts...
+Jan 28 04:37:06 wadic-cad101 nm-dispatcher[5458]: req:2 'down' [wlo1]: new request (1 scripts)
+Jan 28 04:37:06 wadic-cad101 nm-dispatcher[5458]: req:2 'down' [wlo1]: start running ordered scripts...
+Jan 28 04:37:06 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mno app for changed ubuntu-dock@ubuntu.com[0m
+Jan 28 04:37:06 wadic-cad101 gnome-shell[4110]: [0;1;39m[0;1;31m[0;1;39mObject .Gjs_AppIndicatorIconActor__1 (0x5587545d97d0), has been already finalized. Impossible to set any property to it.[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m== Stack trace for context 0x5587528ce320 ==[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#0 0x7ffedfa2b400 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7fa29e4b5de0 @ 87)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#1 0x558752c5e6a0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7fa2780ce6f8 @ 58)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#2 0x7ffedfa2bfe0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fa29e4b5de0 @ 71)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#3 0x7ffedfa2c0a0 b   self-hosted:916 (0x7fa29e4f12b8 @ 367)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#4 0x7ffedfa2c120 I   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fa29e4d2230 @ 386)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#5 0x558752c5e618 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7fa2780bd3c8 @ 22)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#6 0x7ffedfa2cd00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fa29e4b5de0 @ 71)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#7 0x558752c5e570 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7fa2780ba9a0 @ 225)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#8 0x7ffedfa2d8e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fa29e4b5de0 @ 71)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#9 0x558752c5e4f8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7fa278093c48 @ 37)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#10 0x558752c5e438 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7fa29e3592b8 @ 441)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#11 0x558752c5e3b8 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7fa29e359d58 @ 13)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#12 0x7ffedfa2e5e0 b   self-hosted:251 (0x7fa29e4c4ab0 @ 223)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#13 0x558752c5e338 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7fa29e359cd0 @ 64)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#14 0x558752c5e2b8 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7fa29e359de0 @ 87)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#15 0x7ffedfa2fae0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fa29e4d2230 @ 386)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#16 0x7ffedfa302f0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7fa279d704d8 @ 254)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#17 0x7ffedfa30fd0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fa29e4b5de0 @ 71)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#18 0x558752c5e178 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7fa279d702b8 @ 40)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#19 0x7ffedfa31bb0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fa29e4b5de0 @ 71)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#20 0x558752c5e0d0 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7fa279d53a28 @ 188)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#21 0x7ffedfa32790 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fa29e4b5de0 @ 71)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#22 0x558752c5e020 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7fa279d53ab0 @ 391)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#23 0x7ffedfa33370 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fa29e4b5de0 @ 71)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#24 0x558752c5df98 i   resource:///org/gnome/shell/ui/screenShield.js:734 (0x7fa279d51560 @ 57)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#25 0x7ffedfa33f60 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fa29e4b5de0 @ 71)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#26 0x7ffedfa34030 b   self-hosted:918 (0x7fa29e4f12b8 @ 394)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#27 0x7ffedfa34120 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fa29e4d2230 @ 386)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#28 0x558752c5df00 i   resource:///org/gnome/shell/misc/loginManager.js:186 (0x7fa29e312230 @ 92)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#29 0x7ffedfa34d90 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fa29e4b5de0 @ 71)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#30 0x7ffedfa34e70 b   self-hosted:920 (0x7fa29e4f12b8 @ 428)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#31 0x7ffedfa34f70 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fa29e4d2230 @ 386)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#32 0x558752c5de60 i   resource:///org/gnome/gjs/modules/overrides/Gio.js:117 (0x7fa29e4e0ab0 @ 39)[0m
+Jan 28 04:37:06 wadic-cad101 gnome-shell[4110]: [0;1;39m[0;1;31m[0;1;39mObject .Gjs_AppIndicatorIconActor__1 (0x558753dea440), has been already finalized. Impossible to set any property to it.[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m== Stack trace for context 0x5587528ce320 ==[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#0 0x7ffedfa2b400 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7fa29e4b5de0 @ 87)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#1 0x558752c5e6a0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7fa2780ce6f8 @ 58)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#2 0x7ffedfa2bfe0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fa29e4b5de0 @ 71)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#3 0x7ffedfa2c0a0 b   self-hosted:916 (0x7fa29e4f12b8 @ 367)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#4 0x7ffedfa2c120 I   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fa29e4d2230 @ 386)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#5 0x558752c5e618 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7fa2780bd3c8 @ 22)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#6 0x7ffedfa2cd00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fa29e4b5de0 @ 71)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#7 0x558752c5e570 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7fa2780ba9a0 @ 225)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#8 0x7ffedfa2d8e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fa29e4b5de0 @ 71)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#9 0x558752c5e4f8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7fa278093c48 @ 37)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#10 0x558752c5e438 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7fa29e3592b8 @ 441)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#11 0x558752c5e3b8 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7fa29e359d58 @ 13)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#12 0x7ffedfa2e5e0 b   self-hosted:251 (0x7fa29e4c4ab0 @ 223)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#13 0x558752c5e338 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7fa29e359cd0 @ 64)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#14 0x558752c5e2b8 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7fa29e359de0 @ 87)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#15 0x7ffedfa2fae0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fa29e4d2230 @ 386)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#16 0x7ffedfa302f0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7fa279d704d8 @ 254)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#17 0x7ffedfa30fd0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fa29e4b5de0 @ 71)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#18 0x558752c5e178 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7fa279d702b8 @ 40)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#19 0x7ffedfa31bb0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fa29e4b5de0 @ 71)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#20 0x558752c5e0d0 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7fa279d53a28 @ 188)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#21 0x7ffedfa32790 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fa29e4b5de0 @ 71)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#22 0x558752c5e020 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7fa279d53ab0 @ 391)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#23 0x7ffedfa33370 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fa29e4b5de0 @ 71)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#24 0x558752c5df98 i   resource:///org/gnome/shell/ui/screenShield.js:734 (0x7fa279d51560 @ 57)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#25 0x7ffedfa33f60 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fa29e4b5de0 @ 71)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#26 0x7ffedfa34030 b   self-hosted:918 (0x7fa29e4f12b8 @ 394)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#27 0x7ffedfa34120 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fa29e4d2230 @ 386)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#28 0x558752c5df00 i   resource:///org/gnome/shell/misc/loginManager.js:186 (0x7fa29e312230 @ 92)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#29 0x7ffedfa34d90 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fa29e4b5de0 @ 71)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#30 0x7ffedfa34e70 b   self-hosted:920 (0x7fa29e4f12b8 @ 428)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#31 0x7ffedfa34f70 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fa29e4d2230 @ 386)[0m
+Jan 28 04:37:06 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m#32 0x558752c5de60 i   resource:///org/gnome/gjs/modules/overrides/Gio.js:117 (0x7fa29e4e0ab0 @ 39)[0m
+Jan 28 04:37:06 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mno app for changed ubuntu-appindicators@ubuntu.com[0m
+Jan 28 04:37:06 wadic-cad101 wpa_supplicant[1389]: [0;1;39m[0;1;31m[0;1;39mnl80211: deinit ifname=wlo1 disabled_11b_rates=0[0m
+Jan 28 04:37:07 wadic-cad101 gnome-shell[2731]: [0;1;39m[0;1;31m[0;1;39mFailed to set power save mode for output eDP-1: Permission denied[0m
+Jan 28 04:37:07 wadic-cad101 systemd[1]: Reached target Sleep.
+-- Subject: Unit sleep.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit sleep.target has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:37:07 wadic-cad101 systemd[1]: Starting Suspend...
+-- Subject: Unit systemd-suspend.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-suspend.service has begun starting up.
+Jan 28 04:37:07 wadic-cad101 systemd-sleep[5500]: Suspending system...
+-- Subject: System sleep state suspend entered
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The system has now entered the suspend sleep state.
+Jan 28 04:37:07 wadic-cad101 kernel: PM: suspend entry (deep)
+Jan 28 04:37:07 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[4601:4649:0128/043707.736456:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106[0m
+Jan 28 04:37:08 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[4601:4649:0128/043708.235813:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106[0m
+Jan 28 04:37:08 wadic-cad101 kernel: Filesystems sync: 1.417 seconds
+Jan 28 04:37:19 wadic-cad101 kernel: Freezing user space processes ... (elapsed 0.179 seconds) done.
+Jan 28 04:37:19 wadic-cad101 kernel: OOM killer disabled.
+Jan 28 04:37:19 wadic-cad101 kernel: Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+Jan 28 04:37:19 wadic-cad101 kernel: printk: Suspending console(s) (use no_console_suspend to debug)
+Jan 28 04:37:19 wadic-cad101 kernel: [0;1;39m[0;1;31m[0;1;39msd 0:0:0:0: [sda] Synchronizing SCSI cache[0m
+Jan 28 04:37:19 wadic-cad101 kernel: [0;1;39m[0;1;31m[0;1;39msd 0:0:0:0: [sda] Stopping disk[0m
+Jan 28 04:37:19 wadic-cad101 kernel: [drm] PCIE GART of 256M enabled (table at 0x000000F400000000).
+Jan 28 04:37:19 wadic-cad101 kernel: [0;1;39m[0;1;31m[0;1;39mamdgpu: [powerplay] can't get the mac of 5[0m
+Jan 28 04:37:19 wadic-cad101 kernel: [0;1;31m[0;1;39m[0;1;31mamdgpu: [powerplay] VBIOS did not find boot engine clock value in dependency table. Using Memory DPM level 0![0m
+Jan 28 04:37:19 wadic-cad101 kernel: [0;1;39m[0;1;31m[0;1;39mamdgpu: [powerplay] VI should always have 2 performance levels[0m
+Jan 28 04:37:19 wadic-cad101 kernel: ACPI: EC: interrupt blocked
+Jan 28 04:37:19 wadic-cad101 kernel: ACPI: Preparing to enter system sleep state S3
+Jan 28 04:37:19 wadic-cad101 kernel: ACPI: EC: event blocked
+Jan 28 04:37:19 wadic-cad101 kernel: ACPI: EC: EC stopped
+Jan 28 04:37:19 wadic-cad101 kernel: PM: Saving platform NVS memory
+Jan 28 04:37:19 wadic-cad101 kernel: Disabling non-boot CPUs ...
+Jan 28 04:37:19 wadic-cad101 kernel: [0;1;39m[0;1;31m[0;1;39mIRQ 47: no longer affine to CPU1[0m
+Jan 28 04:37:19 wadic-cad101 kernel: [0;1;39m[0;1;31m[0;1;39mIRQ 50: no longer affine to CPU1[0m
+Jan 28 04:37:19 wadic-cad101 kernel: smpboot: CPU 1 is now offline
+Jan 28 04:37:19 wadic-cad101 kernel: [0;1;39m[0;1;31m[0;1;39mIRQ 51: no longer affine to CPU2[0m
+Jan 28 04:37:19 wadic-cad101 kernel: smpboot: CPU 2 is now offline
+Jan 28 04:37:19 wadic-cad101 kernel: [0;1;39m[0;1;31m[0;1;39mIRQ 44: no longer affine to CPU3[0m
+Jan 28 04:37:19 wadic-cad101 kernel: [0;1;39m[0;1;31m[0;1;39mIRQ 45: no longer affine to CPU3[0m
+Jan 28 04:37:19 wadic-cad101 kernel: smpboot: CPU 3 is now offline
+Jan 28 04:37:19 wadic-cad101 kernel: ACPI: Low-level resume complete
+Jan 28 04:37:19 wadic-cad101 kernel: ACPI: EC: EC started
+Jan 28 04:37:19 wadic-cad101 kernel: PM: Restoring platform NVS memory
+Jan 28 04:37:19 wadic-cad101 kernel: Enabling non-boot CPUs ...
+Jan 28 04:37:19 wadic-cad101 kernel: x86: Booting SMP configuration:
+Jan 28 04:37:19 wadic-cad101 kernel: smpboot: Booting Node 0 Processor 1 APIC 0x1
+Jan 28 04:37:19 wadic-cad101 kernel: CPU1 is up
+Jan 28 04:37:19 wadic-cad101 kernel: smpboot: Booting Node 0 Processor 2 APIC 0x2
+Jan 28 04:37:19 wadic-cad101 kernel: CPU2 is up
+Jan 28 04:37:19 wadic-cad101 kernel: smpboot: Booting Node 0 Processor 3 APIC 0x3
+Jan 28 04:37:19 wadic-cad101 kernel: CPU3 is up
+Jan 28 04:37:19 wadic-cad101 kernel: ACPI: Waking up from system sleep state S3
+Jan 28 04:37:19 wadic-cad101 kernel: ACPI: EC: interrupt unblocked
+Jan 28 04:37:19 wadic-cad101 kernel: ACPI: EC: event unblocked
+Jan 28 04:37:19 wadic-cad101 kernel: [drm] PCIE GART of 256M enabled (table at 0x000000F400000000).
+Jan 28 04:37:19 wadic-cad101 kernel: [0;1;39m[0;1;31m[0;1;39msd 0:0:0:0: [sda] Starting disk[0m
+Jan 28 04:37:19 wadic-cad101 kernel: [0;1;39m[0;1;31m[0;1;39mamdgpu: [powerplay] can't get the mac of 5[0m
+Jan 28 04:37:19 wadic-cad101 kernel: [0;1;31m[0;1;39m[0;1;31mamdgpu: [powerplay] VBIOS did not find boot engine clock value in dependency table. Using Memory DPM level 0![0m
+Jan 28 04:37:19 wadic-cad101 kernel: usb 2-5: reset full-speed USB device number 3 using xhci_hcd
+Jan 28 04:37:19 wadic-cad101 kernel: ata2: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+Jan 28 04:37:19 wadic-cad101 kernel: ata2.00: configured for UDMA/133
+Jan 28 04:37:19 wadic-cad101 kernel: tpm tpm0: TPM is disabled/deactivated (0x7)
+Jan 28 04:37:19 wadic-cad101 kernel: usb 2-7: reset high-speed USB device number 4 using xhci_hcd
+Jan 28 04:37:19 wadic-cad101 kernel: usb 2-4: reset full-speed USB device number 2 using xhci_hcd
+Jan 28 04:37:19 wadic-cad101 kernel: acpi LNXPOWER:04: Turning OFF
+Jan 28 04:37:19 wadic-cad101 kernel: acpi LNXPOWER:02: Turning OFF
+Jan 28 04:37:19 wadic-cad101 kernel: acpi LNXPOWER:01: Turning OFF
+Jan 28 04:37:19 wadic-cad101 kernel: OOM killer enabled.
+Jan 28 04:37:19 wadic-cad101 kernel: Restarting tasks ... 
+Jan 28 04:37:19 wadic-cad101 kernel: [0;1;39m[0;1;31m[0;1;39macpi PNP0501:00: Still not present[0m
+Jan 28 04:37:19 wadic-cad101 kernel: [0;1;39m[0;1;31m[0;1;39mdone.[0m
+Jan 28 04:37:19 wadic-cad101 systemd[1]: Starting Load/Save RF Kill Switch Status...
+-- Subject: Unit systemd-rfkill.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-rfkill.service has begun starting up.
+Jan 28 04:37:19 wadic-cad101 bluetoothd[1162]: Endpoint unregistered: sender=:1.94 path=/MediaEndpoint/A2DPSource
+Jan 28 04:37:19 wadic-cad101 bluetoothd[1162]: Endpoint unregistered: sender=:1.94 path=/MediaEndpoint/A2DPSink
+Jan 28 04:37:19 wadic-cad101 systemd-rfkill[5575]: [0;1;31m[0;1;39m[0;1;31mFailed to open device rfkill0: No such device[0m
+Jan 28 04:37:19 wadic-cad101 systemd[1]: Started Load/Save RF Kill Switch Status.
+-- Subject: Unit systemd-rfkill.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-rfkill.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:37:19 wadic-cad101 dbus-daemon[1178]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 1 matched rules; type="error", sender=":1.94" (uid=1000 pid=4137 comm="/usr/bin/pulseaudio --start --log-target=syslog " label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.3" (uid=0 pid=1162 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined")[0m
+Jan 28 04:37:19 wadic-cad101 dbus-daemon[1178]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 1 matched rules; type="error", sender=":1.94" (uid=1000 pid=4137 comm="/usr/bin/pulseaudio --start --log-target=syslog " label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.3" (uid=0 pid=1162 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined")[0m
+Jan 28 04:37:19 wadic-cad101 dbus-daemon[1178]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 1 matched rules; type="error", sender=":1.94" (uid=1000 pid=4137 comm="/usr/bin/pulseaudio --start --log-target=syslog " label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.3" (uid=0 pid=1162 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined")[0m
+Jan 28 04:37:19 wadic-cad101 dbus-daemon[1178]: [0;1;39m[0;1;31m[0;1;39m[system] Rejected send message, 1 matched rules; type="error", sender=":1.94" (uid=1000 pid=4137 comm="/usr/bin/pulseaudio --start --log-target=syslog " label="unconfined") interface="(unset)" member="(unset)" error name="org.bluez.MediaEndpoint1.Error.NotImplemented" requested_reply="0" destination=":1.3" (uid=0 pid=1162 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined")[0m
+Jan 28 04:37:19 wadic-cad101 upowerd[2907]: [0;1;39m[0;1;31m[0;1;39munhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:14.0/usb2/2-4/2-4:1.1[0m
+Jan 28 04:37:19 wadic-cad101 systemd[1]: bluetooth.target: Unit not needed anymore. Stopping.
+Jan 28 04:37:19 wadic-cad101 systemd[1]: Stopped target Bluetooth.
+-- Subject: Unit bluetooth.target has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit bluetooth.target has finished shutting down.
+Jan 28 04:37:19 wadic-cad101 upowerd[2907]: [0;1;39m[0;1;31m[0;1;39munhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:14.0/usb2/2-4/2-4:1.0[0m
+Jan 28 04:37:19 wadic-cad101 kernel: psmouse serio3: synaptics: queried max coordinates: x [..5716], y [..4886]
+Jan 28 04:37:19 wadic-cad101 kernel: psmouse serio3: synaptics: queried min coordinates: x [1220..], y [986..]
+Jan 28 04:37:19 wadic-cad101 upowerd[2907]: [0;1;39m[0;1;31m[0;1;39munhandled action 'bind' on /sys/devices/pci0000:00/0000:00:14.0/usb2/2-4/2-4:1.1[0m
+Jan 28 04:37:19 wadic-cad101 systemd[1]: Reached target Bluetooth.
+-- Subject: Unit bluetooth.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit bluetooth.target has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:37:19 wadic-cad101 upowerd[2907]: [0;1;39m[0;1;31m[0;1;39munhandled action 'bind' on /sys/devices/pci0000:00/0000:00:14.0/usb2/2-4/2-4:1.0[0m
+Jan 28 04:37:19 wadic-cad101 kernel: Bluetooth: hci0: read Intel version: 3707100100012d0d00
+Jan 28 04:37:19 wadic-cad101 kernel: Bluetooth: hci0: Intel Bluetooth firmware file: intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq
+Jan 28 04:37:19 wadic-cad101 kernel: [0;1;31m[0;1;39m[0;1;31mBluetooth: hci0: unexpected event for opcode 0xfc2f[0m
+Jan 28 04:37:19 wadic-cad101 kernel: Bluetooth: hci0: Intel firmware patch completed and activated
+Jan 28 04:37:20 wadic-cad101 systemd-sleep[5500]: System resumed.
+-- Subject: System sleep state suspend left
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The system has now left the suspend sleep state.
+Jan 28 04:37:20 wadic-cad101 kernel: PM: suspend exit
+Jan 28 04:37:20 wadic-cad101 kernel: ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+Jan 28 04:37:20 wadic-cad101 kernel: ata1.00: configured for UDMA/133
+Jan 28 04:37:21 wadic-cad101 systemd-sleep[5500]: /dev/sda:
+Jan 28 04:37:21 wadic-cad101 systemd-sleep[5500]:  setting Advanced Power Management level to 0xfe (254)
+Jan 28 04:37:21 wadic-cad101 systemd-sleep[5500]:  APM_level        = 254
+Jan 28 04:37:21 wadic-cad101 systemd[1]: Started Suspend.
+-- Subject: Unit systemd-suspend.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-suspend.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:37:21 wadic-cad101 systemd[1]: sleep.target: Unit not needed anymore. Stopping.
+Jan 28 04:37:21 wadic-cad101 systemd[1]: Stopped target Sleep.
+-- Subject: Unit sleep.target has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit sleep.target has finished shutting down.
+Jan 28 04:37:21 wadic-cad101 systemd[1]: Reached target Suspend.
+-- Subject: Unit suspend.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit suspend.target has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:37:21 wadic-cad101 systemd[1]: suspend.target: Unit not needed anymore. Stopping.
+Jan 28 04:37:21 wadic-cad101 systemd[1]: Stopped target Suspend.
+-- Subject: Unit suspend.target has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit suspend.target has finished shutting down.
+Jan 28 04:37:21 wadic-cad101 systemd-logind[1150]: Operation 'sleep' finished.
+Jan 28 04:37:21 wadic-cad101 gnome-shell[2731]: [0;1;39m[0;1;31m[0;1;39mFailed to set power save mode for output eDP-1: Permission denied[0m
+Jan 28 04:37:21 wadic-cad101 NetworkManager[1390]: <info>  [1674862641.3024] bluez5: NAP: removed interface B4:6D:83:75:2D:B1
+Jan 28 04:37:21 wadic-cad101 NetworkManager[1390]: <info>  [1674862641.3040] bluez5: NAP: added interface B4:6D:83:75:2D:B1
+Jan 28 04:37:21 wadic-cad101 NetworkManager[1390]: <info>  [1674862641.3041] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+Jan 28 04:37:21 wadic-cad101 NetworkManager[1390]: <info>  [1674862641.3042] device (enp8s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Jan 28 04:37:21 wadic-cad101 kernel: Generic FE-GE Realtek PHY r8169-0-800:00: attached PHY driver [Generic FE-GE Realtek PHY] (mii_bus:phy_addr=r8169-0-800:00, irq=IGNORE)
+Jan 28 04:37:21 wadic-cad101 NetworkManager[1390]: <info>  [1674862641.4119] device (wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Jan 28 04:37:21 wadic-cad101 kernel: r8169 0000:08:00.0 enp8s0: Link is Down
+Jan 28 04:37:21 wadic-cad101 bluetoothd[1162]: Endpoint registered: sender=:1.94 path=/MediaEndpoint/A2DPSource
+Jan 28 04:37:21 wadic-cad101 bluetoothd[1162]: Endpoint registered: sender=:1.94 path=/MediaEndpoint/A2DPSink
+Jan 28 04:37:21 wadic-cad101 NetworkManager[1390]: <info>  [1674862641.5704] manager: NetworkManager state is now CONNECTED_LOCAL
+Jan 28 04:37:21 wadic-cad101 NetworkManager[1390]: <info>  [1674862641.5877] keyfile: add connection in-memory (97e0d408-75a7-42b5-ab2c-097e6ed98bc6,"OPPO A96 Network")
+Jan 28 04:37:21 wadic-cad101 NetworkManager[1390]: <info>  [1674862641.5893] bluez: BT device OPPO A96 (74:EF:4B:4C:6D:94) added (NAP)
+Jan 28 04:37:21 wadic-cad101 NetworkManager[1390]: <info>  [1674862641.5899] manager: (74:EF:4B:4C:6D:94): new Bluetooth device (/org/freedesktop/NetworkManager/Devices/6)
+Jan 28 04:37:21 wadic-cad101 NetworkManager[1390]: <info>  [1674862641.5902] device (74:EF:4B:4C:6D:94): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Jan 28 04:37:21 wadic-cad101 NetworkManager[1390]: <info>  [1674862641.5942] device (74:EF:4B:4C:6D:94): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Jan 28 04:37:21 wadic-cad101 NetworkManager[1390]: <info>  [1674862641.6379] sup-iface[0x55eaf86110b0,wlo1]: supports 5 scan SSIDs
+Jan 28 04:37:21 wadic-cad101 NetworkManager[1390]: <info>  [1674862641.6387] device (wlo1): supplicant interface state: starting -> ready
+Jan 28 04:37:21 wadic-cad101 NetworkManager[1390]: <info>  [1674862641.6388] device (wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Jan 28 04:37:23 wadic-cad101 ModemManager[1165]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.2/0000:08:00.0': not supported by any plugin
+Jan 28 04:37:23 wadic-cad101 ModemManager[1165]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.3/0000:09:00.0': not supported by any plugin
+Jan 28 04:37:24 wadic-cad101 gdm-password][5596]: gkr-pam: unlocked login keyring
+Jan 28 04:37:24 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mno app for changed ubuntu-dock@ubuntu.com[0m
+Jan 28 04:37:24 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mno app for changed ubuntu-appindicators@ubuntu.com[0m
+Jan 28 04:37:24 wadic-cad101 gvfsd-metadata[4472]: [0;1;39m[0;1;31m[0;1;39mg_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed[0m
+Jan 28 04:37:24 wadic-cad101 gvfsd-metadata[4472]: [0;1;39m[0;1;31m[0;1;39mg_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed[0m
+Jan 28 04:37:24 wadic-cad101 gnome-shell[4110]: [0;1;39m[0;1;31m[0;1;39m[AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.70/org/ayatana/NotificationItem/software_update_available[0m
+Jan 28 04:37:24 wadic-cad101 gnome-shell[4110]: [0;1;39m[0;1;31m[0;1;39m[AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.70/org/ayatana/NotificationItem/livepatch[0m
+Jan 28 04:37:24 wadic-cad101 NetworkManager[1390]: <info>  [1674862644.9750] policy: auto-activating connection 'Malik Bilal'
+Jan 28 04:37:24 wadic-cad101 NetworkManager[1390]: <info>  [1674862644.9764] device (wlo1): Activation: starting connection 'Malik Bilal' (2676f080-459e-4241-8736-392cd1e31832)
+Jan 28 04:37:24 wadic-cad101 NetworkManager[1390]: <info>  [1674862644.9783] device (wlo1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Jan 28 04:37:24 wadic-cad101 NetworkManager[1390]: <info>  [1674862644.9787] manager: NetworkManager state is now CONNECTING
+Jan 28 04:37:24 wadic-cad101 NetworkManager[1390]: <info>  [1674862644.9796] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jan 28 04:37:24 wadic-cad101 NetworkManager[1390]: <info>  [1674862644.9800] device (wlo1): Activation: (wifi) access point 'Malik Bilal' has security, but secrets are required.
+Jan 28 04:37:24 wadic-cad101 NetworkManager[1390]: <info>  [1674862644.9800] device (wlo1): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Jan 28 04:37:24 wadic-cad101 NetworkManager[1390]: <info>  [1674862644.9907] device (wlo1): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Jan 28 04:37:24 wadic-cad101 NetworkManager[1390]: <info>  [1674862644.9913] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jan 28 04:37:24 wadic-cad101 NetworkManager[1390]: <info>  [1674862644.9916] device (wlo1): Activation: (wifi) connection 'Malik Bilal' has security, and secrets exist.  No new secrets needed.
+Jan 28 04:37:24 wadic-cad101 NetworkManager[1390]: <info>  [1674862644.9917] Config: added 'ssid' value 'Malik Bilal'
+Jan 28 04:37:24 wadic-cad101 NetworkManager[1390]: <info>  [1674862644.9917] Config: added 'scan_ssid' value '1'
+Jan 28 04:37:24 wadic-cad101 NetworkManager[1390]: <info>  [1674862644.9917] Config: added 'bgscan' value 'simple:30:-80:86400'
+Jan 28 04:37:24 wadic-cad101 NetworkManager[1390]: <info>  [1674862644.9918] Config: added 'key_mgmt' value 'WPA-PSK'
+Jan 28 04:37:24 wadic-cad101 NetworkManager[1390]: <info>  [1674862644.9918] Config: added 'psk' value '<hidden>'
+Jan 28 04:37:25 wadic-cad101 wpa_supplicant[1389]: [0;1;39m[0;1;31m[0;1;39mwlo1: SME: Trying to authenticate with 50:0f:f5:a2:b8:89 (SSID='Malik Bilal' freq=2437 MHz)[0m
+Jan 28 04:37:25 wadic-cad101 kernel: wlo1: authenticate with 50:0f:f5:a2:b8:89
+Jan 28 04:37:25 wadic-cad101 NetworkManager[1390]: <info>  [1674862645.0159] device (wlo1): supplicant interface state: ready -> authenticating
+Jan 28 04:37:25 wadic-cad101 kernel: wlo1: send auth to 50:0f:f5:a2:b8:89 (try 1/3)
+Jan 28 04:37:25 wadic-cad101 wpa_supplicant[1389]: [0;1;39m[0;1;31m[0;1;39mwlo1: Trying to associate with 50:0f:f5:a2:b8:89 (SSID='Malik Bilal' freq=2437 MHz)[0m
+Jan 28 04:37:25 wadic-cad101 kernel: wlo1: authenticated
+Jan 28 04:37:25 wadic-cad101 kernel: wlo1: associate with 50:0f:f5:a2:b8:89 (try 1/3)
+Jan 28 04:37:25 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39mFontconfig error: Cannot load default config file: No such file: (null)[0m
+Jan 28 04:37:25 wadic-cad101 kernel: wlo1: RX AssocResp from 50:0f:f5:a2:b8:89 (capab=0x431 status=0 aid=1)
+Jan 28 04:37:25 wadic-cad101 NetworkManager[1390]: <info>  [1674862645.0293] device (wlo1): supplicant interface state: authenticating -> associating
+Jan 28 04:37:25 wadic-cad101 wpa_supplicant[1389]: [0;1;39m[0;1;31m[0;1;39mwlo1: Associated with 50:0f:f5:a2:b8:89[0m
+Jan 28 04:37:25 wadic-cad101 wpa_supplicant[1389]: [0;1;39m[0;1;31m[0;1;39mwlo1: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0[0m
+Jan 28 04:37:25 wadic-cad101 wpa_supplicant[1389]: [0;1;39m[0;1;31m[0;1;39mwlo1: CTRL-EVENT-REGDOM-CHANGE init=COUNTRY_IE type=COUNTRY alpha2=US[0m
+Jan 28 04:37:25 wadic-cad101 kernel: wlo1: associated
+Jan 28 04:37:25 wadic-cad101 NetworkManager[1390]: <info>  [1674862645.0369] device (wlo1): supplicant interface state: associating -> 4-way handshake
+Jan 28 04:37:25 wadic-cad101 wpa_supplicant[1389]: [0;1;39m[0;1;31m[0;1;39mwlo1: WPA: Key negotiation completed with 50:0f:f5:a2:b8:89 [PTK=CCMP GTK=CCMP][0m
+Jan 28 04:37:25 wadic-cad101 wpa_supplicant[1389]: [0;1;39m[0;1;31m[0;1;39mwlo1: CTRL-EVENT-CONNECTED - Connection to 50:0f:f5:a2:b8:89 completed [id=0 id_str=][0m
+Jan 28 04:37:25 wadic-cad101 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): wlo1: link becomes ready
+Jan 28 04:37:25 wadic-cad101 NetworkManager[1390]: <info>  [1674862645.0504] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Jan 28 04:37:25 wadic-cad101 NetworkManager[1390]: <info>  [1674862645.0505] device (wlo1): Activation: (wifi) Stage 2 of 5 (Device Configure) successful.  Connected to wireless network 'Malik Bilal'.
+Jan 28 04:37:25 wadic-cad101 NetworkManager[1390]: <info>  [1674862645.0506] device (wlo1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Jan 28 04:37:25 wadic-cad101 NetworkManager[1390]: <info>  [1674862645.0510] dhcp4 (wlo1): activation: beginning transaction (timeout in 45 seconds)
+Jan 28 04:37:25 wadic-cad101 NetworkManager[1390]: <info>  [1674862645.0555] dhcp4 (wlo1): dhclient started with pid 5748
+Jan 28 04:37:25 wadic-cad101 avahi-daemon[1141]: Joining mDNS multicast group on interface wlo1.IPv6 with address fe80::cd01:160e:f4b8:7f79.
+Jan 28 04:37:25 wadic-cad101 avahi-daemon[1141]: New relevant interface wlo1.IPv6 for mDNS.
+Jan 28 04:37:25 wadic-cad101 avahi-daemon[1141]: Registering new address record for fe80::cd01:160e:f4b8:7f79 on wlo1.*.
+Jan 28 04:37:25 wadic-cad101 dhclient[5748]: DHCPREQUEST of 192.168.0.103 on wlo1 to 255.255.255.255 port 67 (xid=0x20e93f0)
+Jan 28 04:37:25 wadic-cad101 wpa_supplicant[1389]: [0;1;39m[0;1;31m[0;1;39mwlo1: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-46 noise=9999 txrate=150000[0m
+Jan 28 04:37:25 wadic-cad101 dhclient[5748]: DHCPACK of 192.168.0.103 from 192.168.0.1
+Jan 28 04:37:25 wadic-cad101 NetworkManager[1390]: <info>  [1674862645.1368] dhcp4 (wlo1):   address 192.168.0.103
+Jan 28 04:37:25 wadic-cad101 NetworkManager[1390]: <info>  [1674862645.1370] dhcp4 (wlo1):   plen 24 (255.255.255.0)
+Jan 28 04:37:25 wadic-cad101 NetworkManager[1390]: <info>  [1674862645.1370] dhcp4 (wlo1):   gateway 192.168.0.1
+Jan 28 04:37:25 wadic-cad101 NetworkManager[1390]: <info>  [1674862645.1371] dhcp4 (wlo1):   lease time 86400
+Jan 28 04:37:25 wadic-cad101 NetworkManager[1390]: <info>  [1674862645.1371] dhcp4 (wlo1):   nameserver '192.168.0.1'
+Jan 28 04:37:25 wadic-cad101 NetworkManager[1390]: <info>  [1674862645.1371] dhcp4 (wlo1): state changed unknown -> bound
+Jan 28 04:37:25 wadic-cad101 avahi-daemon[1141]: Joining mDNS multicast group on interface wlo1.IPv4 with address 192.168.0.103.
+Jan 28 04:37:25 wadic-cad101 avahi-daemon[1141]: New relevant interface wlo1.IPv4 for mDNS.
+Jan 28 04:37:25 wadic-cad101 avahi-daemon[1141]: Registering new address record for 192.168.0.103 on wlo1.IPv4.
+Jan 28 04:37:25 wadic-cad101 NetworkManager[1390]: <info>  [1674862645.1404] device (wlo1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Jan 28 04:37:25 wadic-cad101 whoopsie[2550]: [04:37:25] Cannot reach: https://daisy.ubuntu.com
+Jan 28 04:37:25 wadic-cad101 NetworkManager[1390]: <info>  [1674862645.1440] device (wlo1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Jan 28 04:37:25 wadic-cad101 NetworkManager[1390]: <info>  [1674862645.1443] device (wlo1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Jan 28 04:37:25 wadic-cad101 NetworkManager[1390]: <info>  [1674862645.1444] manager: NetworkManager state is now CONNECTED_LOCAL
+Jan 28 04:37:25 wadic-cad101 NetworkManager[1390]: <info>  [1674862645.2277] manager: NetworkManager state is now CONNECTED_SITE
+Jan 28 04:37:25 wadic-cad101 NetworkManager[1390]: <info>  [1674862645.2278] policy: set 'Malik Bilal' (wlo1) as default for IPv4 routing and DNS
+Jan 28 04:37:25 wadic-cad101 NetworkManager[1390]: <info>  [1674862645.2283] device (wlo1): Activation: successful, device activated.
+Jan 28 04:37:25 wadic-cad101 dbus-daemon[1178]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.15' (uid=0 pid=1390 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jan 28 04:37:25 wadic-cad101 systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+Jan 28 04:37:25 wadic-cad101 dbus-daemon[1178]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 28 04:37:25 wadic-cad101 systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:37:25 wadic-cad101 nm-dispatcher[5762]: req:1 'up' [wlo1]: new request (1 scripts)
+Jan 28 04:37:25 wadic-cad101 nm-dispatcher[5762]: req:1 'up' [wlo1]: start running ordered scripts...
+Jan 28 04:37:25 wadic-cad101 dhclient[5748]: bound to 192.168.0.103 -- renewal in 42891 seconds.
+Jan 28 04:37:25 wadic-cad101 systemd-resolved[871]: [0;1;39m[0;1;31m[0;1;39mUsing degraded feature set (UDP) for DNS server 192.168.0.1.[0m
+Jan 28 04:37:25 wadic-cad101 gsd-sharing[4259]: [0;1;39m[0;1;31m[0;1;39mFailed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.[0m
+Jan 28 04:37:25 wadic-cad101 gsd-sharing[4259]: [0;1;39m[0;1;31m[0;1;39mFailed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.[0m
+Jan 28 04:37:25 wadic-cad101 gsd-sharing[4259]: [0;1;39m[0;1;31m[0;1;39mFailed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.[0m
+Jan 28 04:37:25 wadic-cad101 kernel: [0;1;39m[0;1;31m[0;1;39mamdgpu: [powerplay] VI should always have 2 performance levels[0m
+Jan 28 04:37:25 wadic-cad101 kernel: amdgpu 0000:0a:00.0: GPU pci config reset
+Jan 28 04:37:26 wadic-cad101 nm-dispatcher[5762]: req:2 'connectivity-change': new request (1 scripts)
+Jan 28 04:37:26 wadic-cad101 nm-dispatcher[5762]: req:2 'connectivity-change': start running ordered scripts...
+Jan 28 04:37:35 wadic-cad101 pkexec[5841]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 28 04:37:35 wadic-cad101 pkexec[5841]: [0;1;39m[0;1;31m[0;1;39mbilal: Executing command [USER=root] [TTY=unknown] [CWD=/home/bilal] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 516][0m
+Jan 28 04:37:36 wadic-cad101 pkexec[5847]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 28 04:37:36 wadic-cad101 pkexec[5847]: [0;1;39m[0;1;31m[0;1;39mbilal: Executing command [USER=root] [TTY=unknown] [CWD=/home/bilal] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 470][0m
+Jan 28 04:37:36 wadic-cad101 pkexec[5853]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 28 04:37:36 wadic-cad101 pkexec[5853]: [0;1;39m[0;1;31m[0;1;39mbilal: Executing command [USER=root] [TTY=unknown] [CWD=/home/bilal] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 424][0m
+Jan 28 04:37:37 wadic-cad101 pkexec[5873]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 28 04:37:37 wadic-cad101 pkexec[5873]: [0;1;39m[0;1;31m[0;1;39mbilal: Executing command [USER=root] [TTY=unknown] [CWD=/home/bilal] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 378][0m
+Jan 28 04:37:37 wadic-cad101 pkexec[5879]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 28 04:37:37 wadic-cad101 pkexec[5879]: [0;1;39m[0;1;31m[0;1;39mbilal: Executing command [USER=root] [TTY=unknown] [CWD=/home/bilal] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 332][0m
+Jan 28 04:37:37 wadic-cad101 pkexec[5885]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 28 04:37:37 wadic-cad101 pkexec[5885]: [0;1;39m[0;1;31m[0;1;39mbilal: Executing command [USER=root] [TTY=unknown] [CWD=/home/bilal] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 286][0m
+Jan 28 04:37:37 wadic-cad101 pkexec[5891]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 28 04:37:37 wadic-cad101 pkexec[5891]: [0;1;39m[0;1;31m[0;1;39mbilal: Executing command [USER=root] [TTY=unknown] [CWD=/home/bilal] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 240][0m
+Jan 28 04:37:38 wadic-cad101 pkexec[5897]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 28 04:37:38 wadic-cad101 pkexec[5897]: [0;1;39m[0;1;31m[0;1;39mbilal: Executing command [USER=root] [TTY=unknown] [CWD=/home/bilal] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 194][0m
+Jan 28 04:37:38 wadic-cad101 pkexec[5903]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 28 04:37:38 wadic-cad101 pkexec[5903]: [0;1;39m[0;1;31m[0;1;39mbilal: Executing command [USER=root] [TTY=unknown] [CWD=/home/bilal] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 148][0m
+Jan 28 04:37:38 wadic-cad101 pkexec[5909]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 28 04:37:38 wadic-cad101 pkexec[5909]: [0;1;39m[0;1;31m[0;1;39mbilal: Executing command [USER=root] [TTY=unknown] [CWD=/home/bilal] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 102][0m
+Jan 28 04:37:38 wadic-cad101 pkexec[5915]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 28 04:37:38 wadic-cad101 pkexec[5915]: [0;1;39m[0;1;31m[0;1;39mbilal: Executing command [USER=root] [TTY=unknown] [CWD=/home/bilal] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 56][0m
+Jan 28 04:37:38 wadic-cad101 pkexec[5921]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 28 04:37:38 wadic-cad101 pkexec[5921]: [0;1;39m[0;1;31m[0;1;39mbilal: Executing command [USER=root] [TTY=unknown] [CWD=/home/bilal] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 10][0m
+Jan 28 04:37:39 wadic-cad101 pkexec[5927]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 28 04:37:39 wadic-cad101 pkexec[5927]: [0;1;39m[0;1;31m[0;1;39mbilal: Executing command [USER=root] [TTY=unknown] [CWD=/home/bilal] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 56][0m
+Jan 28 04:37:41 wadic-cad101 pkexec[5934]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 28 04:37:41 wadic-cad101 pkexec[5934]: [0;1;39m[0;1;31m[0;1;39mbilal: Executing command [USER=root] [TTY=unknown] [CWD=/home/bilal] [COMMAND=/usr/lib/gnome-settings-daemon/gsd-backlight-helper --set-brightness 102][0m
+Jan 28 04:38:55 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39mError in cpuinfo: failed to parse processor information from /proc/cpuinfo[0m
+Jan 28 04:38:58 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.80' (uid=1000 pid=6612 comm="/usr/bin/gnome-terminal.real " label="unconfined")
+Jan 28 04:38:58 wadic-cad101 systemd[3919]: Starting GNOME Terminal Server...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has begun starting up.
+Jan 28 04:38:58 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Successfully activated service 'org.gnome.Terminal'
+Jan 28 04:38:58 wadic-cad101 systemd[3919]: Started GNOME Terminal Server.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:39:01 wadic-cad101 systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+Jan 28 04:39:01 wadic-cad101 CRON[6819]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 04:39:01 wadic-cad101 CRON[6828]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 28 04:39:01 wadic-cad101 CRON[6819]: pam_unix(cron:session): session closed for user root
+Jan 28 04:39:01 wadic-cad101 systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:39:10 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[4671:4675:0128/043910.468439:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -100[0m
+Jan 28 04:39:11 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[4671:4675:0128/043911.054687:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -107[0m
+Jan 28 04:39:11 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[4671:4675:0128/043911.226443:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -107[0m
+Jan 28 04:39:11 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[4671:4675:0128/043911.371978:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -107[0m
+Jan 28 04:39:11 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[4671:4675:0128/043911.532995:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -107[0m
+Jan 28 04:39:13 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[4671:4675:0128/043913.164877:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -100[0m
+Jan 28 04:39:13 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[4671:4675:0128/043913.415069:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -100[0m
+Jan 28 04:39:13 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[4671:4675:0128/043913.645584:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -100[0m
+Jan 28 04:39:13 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[4671:4675:0128/043913.904986:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -100[0m
+Jan 28 04:39:14 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[4671:4675:0128/043914.377603:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -100[0m
+Jan 28 04:39:16 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[4601:5349:0128/043916.836259:ERROR:cert_verify_proc_builtin.cc(700)] CertVerifyProcBuiltin for ib.beintoo.com failed:[0m
+Jan 28 04:39:16 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m----- Certificate i=0 (CN=ubuntu) -----[0m
+Jan 28 04:39:16 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39mERROR: No matching issuer found[0m
+Jan 28 04:39:16 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[4671:4675:0128/043916.836912:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -202[0m
+Jan 28 04:39:16 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39mFontconfig error: Cannot load default config file: No such file: (null)[0m
+Jan 28 04:39:21 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[4671:4675:0128/043921.826400:ERROR:ssl_client_socket_impl.cc(983)] handshake failed; returned -1, SSL error code 1, net_error -202[0m
+Jan 28 04:39:23 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39mFontconfig error: Cannot load default config file: No such file: (null)[0m
+Jan 28 04:39:33 wadic-cad101 sudo[7380]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/home/bilal ; USER=root ; COMMAND=/usr/bin/apt update[0m
+Jan 28 04:39:33 wadic-cad101 sudo[7380]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 04:39:48 wadic-cad101 pkexec[8526]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 28 04:39:48 wadic-cad101 pkexec[8526]: [0;1;39m[0;1;31m[0;1;39mbilal: Executing command [USER=root] [TTY=unknown] [CWD=/home/bilal] [COMMAND=/usr/lib/update-notifier/package-system-locked][0m
+Jan 28 04:39:50 wadic-cad101 sudo[7380]: pam_unix(sudo:session): session closed for user root
+Jan 28 04:40:24 wadic-cad101 sudo[8607]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/home/bilal ; USER=root ; COMMAND=/usr/bin/apt install lsb-release ca-certificates apt-transport-https software-properties-common -y[0m
+Jan 28 04:40:24 wadic-cad101 sudo[8607]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 04:40:35 wadic-cad101 dbus-daemon[1178]: [0;1;39m[0;1;31m[0;1;39mUnknown group "power" in message bus configuration file[0m
+Jan 28 04:40:35 wadic-cad101 dbus-daemon[1178]: [system] Reloaded configuration
+Jan 28 04:40:35 wadic-cad101 dbus-daemon[1178]: [0;1;39m[0;1;31m[0;1;39mUnknown group "power" in message bus configuration file[0m
+Jan 28 04:40:35 wadic-cad101 dbus-daemon[1178]: [system] Reloaded configuration
+Jan 28 04:40:35 wadic-cad101 dbus-daemon[1178]: [0;1;39m[0;1;31m[0;1;39mUnknown group "power" in message bus configuration file[0m
+Jan 28 04:40:35 wadic-cad101 dbus-daemon[1178]: [system] Reloaded configuration
+Jan 28 04:40:35 wadic-cad101 dbus-daemon[1178]: [0;1;39m[0;1;31m[0;1;39mUnknown group "power" in message bus configuration file[0m
+Jan 28 04:40:35 wadic-cad101 dbus-daemon[1178]: [system] Reloaded configuration
+Jan 28 04:40:35 wadic-cad101 dbus-daemon[1178]: [0;1;39m[0;1;31m[0;1;39mUnknown group "power" in message bus configuration file[0m
+Jan 28 04:40:35 wadic-cad101 dbus-daemon[1178]: [system] Reloaded configuration
+Jan 28 04:40:36 wadic-cad101 dbus-daemon[1178]: [0;1;39m[0;1;31m[0;1;39mUnknown group "power" in message bus configuration file[0m
+Jan 28 04:40:36 wadic-cad101 dbus-daemon[1178]: [system] Reloaded configuration
+Jan 28 04:40:36 wadic-cad101 dbus-daemon[1178]: [0;1;39m[0;1;31m[0;1;39mUnknown group "power" in message bus configuration file[0m
+Jan 28 04:40:36 wadic-cad101 dbus-daemon[1178]: [system] Reloaded configuration
+Jan 28 04:40:36 wadic-cad101 dbus-daemon[1178]: [0;1;39m[0;1;31m[0;1;39mUnknown group "power" in message bus configuration file[0m
+Jan 28 04:40:36 wadic-cad101 dbus-daemon[1178]: [system] Reloaded configuration
+Jan 28 04:40:36 wadic-cad101 dbus-daemon[1178]: [0;1;39m[0;1;31m[0;1;39mUnknown group "power" in message bus configuration file[0m
+Jan 28 04:40:36 wadic-cad101 dbus-daemon[1178]: [system] Reloaded configuration
+Jan 28 04:40:36 wadic-cad101 dbus-daemon[1178]: [0;1;39m[0;1;31m[0;1;39mUnknown group "power" in message bus configuration file[0m
+Jan 28 04:40:36 wadic-cad101 dbus-daemon[1178]: [system] Reloaded configuration
+Jan 28 04:40:36 wadic-cad101 dbus-daemon[1178]: [0;1;39m[0;1;31m[0;1;39mUnknown group "power" in message bus configuration file[0m
+Jan 28 04:40:36 wadic-cad101 dbus-daemon[1178]: [system] Reloaded configuration
+Jan 28 04:40:36 wadic-cad101 dbus-daemon[1178]: [0;1;39m[0;1;31m[0;1;39mUnknown group "power" in message bus configuration file[0m
+Jan 28 04:40:36 wadic-cad101 dbus-daemon[1178]: [system] Reloaded configuration
+Jan 28 04:40:36 wadic-cad101 dbus-daemon[1178]: [0;1;39m[0;1;31m[0;1;39mUnknown group "power" in message bus configuration file[0m
+Jan 28 04:40:36 wadic-cad101 dbus-daemon[1178]: [system] Reloaded configuration
+Jan 28 04:40:37 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mfailed to rescan: Failed to parse /usr/share/applications/software-properties-drivers.desktop.dpkg-new file: cannot process file of type text/plain[0m
+Jan 28 04:40:37 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mfailed to rescan: Failed to parse /usr/share/applications/software-properties-drivers.desktop.dpkg-tmp file: cannot process file of type text/plain[0m
+Jan 28 04:40:37 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mfailed to rescan: Failed to parse /usr/share/applications/software-properties-gtk.desktop.dpkg-new file: cannot process file of type text/plain[0m
+Jan 28 04:40:37 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mfailed to rescan: Failed to parse /usr/share/applications/software-properties-gtk.desktop.dpkg-tmp file: cannot process file of type text/plain[0m
+Jan 28 04:40:37 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mfailed to rescan: Failed to parse /usr/share/applications/software-properties-livepatch.desktop.dpkg-new file: cannot process file of type text/plain[0m
+Jan 28 04:40:37 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mfailed to rescan: Failed to parse /usr/share/applications/software-properties-livepatch.desktop.dpkg-tmp file: cannot process file of type text/plain[0m
+Jan 28 04:40:38 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mfailed to rescan: No valid root node specified[0m
+Jan 28 04:40:38 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mfailed to rescan: No valid root node specified[0m
+Jan 28 04:40:38 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mfailed to rescan: Failed to parse /usr/share/applications/software-properties-drivers.desktop file: cannot process file of type application/x-desktop[0m
+Jan 28 04:40:38 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mfailed to rescan: No valid root node specified[0m
+Jan 28 04:40:38 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mfailed to rescan: Failed to parse /usr/share/applications/software-properties-gtk.desktop file: cannot process file of type application/x-desktop[0m
+Jan 28 04:40:38 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mfailed to rescan: Failed to parse /usr/share/applications/software-properties-livepatch.desktop file: cannot process file of type application/x-desktop[0m
+Jan 28 04:40:41 wadic-cad101 dbus-daemon[1178]: [0;1;39m[0;1;31m[0;1;39mUnknown group "power" in message bus configuration file[0m
+Jan 28 04:40:41 wadic-cad101 dbus-daemon[1178]: [system] Reloaded configuration
+Jan 28 04:40:42 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mOnly 0 apps for recent list, hiding[0m
+Jan 28 04:40:43 wadic-cad101 gnome-software[4551]: [0;1;39m[0;1;31m[0;1;39mtried overwriting io.snapcraft.jami-v2dLJDv8AcX1mtod8h5bmJknlYiIKNTJ key GnomeSoftware::FeatureTile-css from border-color: #000000;[0m
+                                                   [0;1;39mcolor: transparent;[0m
+                                                   [0;1;39mfont-size: 30px;[0m
+                                                   [0;1;39mbackground: url('/home/bilal/.cache/gnome-software/cssresource/f6382ec312737428383b9771f0adb4d9be7bc434-jami-qt-gnulinux-banner-20220504.png') no-repeat;[0m
+                                                   [0;1;39mbackground-position: center;[0m
+                                                   [0;1;39mbackground-size: contain; to border-color: #000000;[0m
+                                                   [0;1;39mcolor: transparent;[0m
+                                                   [0;1;39mfont-size: 30px;[0m
+                                                   [0;1;39mbackground: url('https://dashboard.snapcraft.io/site_media/appmedia/2022/05/jami-qt-gnulinux-banner-20220504.png') no-repeat;[0m
+                                                   [0;1;39mbackground-position: center;[0m
+                                                   [0;1;39mbackground-size: contain;[0m
+Jan 28 04:40:44 wadic-cad101 PackageKit[3645]: resolve transaction /5364_adbcbebd from uid 1000 finished with success after 892ms
+Jan 28 04:40:44 wadic-cad101 systemd[1]: Reloading.
+Jan 28 04:40:45 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mrabbitmq-server.service: Supervising process 1779 which is not our child. We'll most likely not notice when it exits.[0m
+Jan 28 04:40:45 wadic-cad101 systemd[1]: Reloading.
+Jan 28 04:40:45 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mrabbitmq-server.service: Supervising process 1779 which is not our child. We'll most likely not notice when it exits.[0m
+Jan 28 04:40:46 wadic-cad101 systemd[1]: Reloading.
+Jan 28 04:40:46 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mrabbitmq-server.service: Supervising process 1779 which is not our child. We'll most likely not notice when it exits.[0m
+Jan 28 04:40:46 wadic-cad101 systemd[1]: Reloading.
+Jan 28 04:40:46 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mrabbitmq-server.service: Supervising process 1779 which is not our child. We'll most likely not notice when it exits.[0m
+Jan 28 04:40:46 wadic-cad101 systemd[1]: Started Ubuntu Advantage Timer for running repeated jobs.
+-- Subject: Unit ua-timer.timer has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit ua-timer.timer has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:40:46 wadic-cad101 systemd[1]: Reloading.
+Jan 28 04:40:46 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mrabbitmq-server.service: Supervising process 1779 which is not our child. We'll most likely not notice when it exits.[0m
+Jan 28 04:40:47 wadic-cad101 systemd[1]: Reloading.
+Jan 28 04:40:47 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mrabbitmq-server.service: Supervising process 1779 which is not our child. We'll most likely not notice when it exits.[0m
+Jan 28 04:40:47 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown lvalue 'ProtectProc' in section 'Service'[0m
+Jan 28 04:40:47 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/ubuntu-advantage-desktop-daemon.service:16: Unknown lvalue 'ProtectKernelLogs' in section 'Service'[0m
+Jan 28 04:41:23 wadic-cad101 dbus-daemon[1178]: [0;1;39m[0;1;31m[0;1;39mUnknown group "power" in message bus configuration file[0m
+Jan 28 04:41:23 wadic-cad101 dbus-daemon[1178]: [system] Reloaded configuration
+Jan 28 04:41:31 wadic-cad101 sudo[8607]: pam_unix(sudo:session): session closed for user root
+Jan 28 04:41:31 wadic-cad101 NetworkManager[1390]: <info>  [1674862891.3584] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jan 28 04:41:31 wadic-cad101 dbus-daemon[1178]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.15' (uid=0 pid=1390 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jan 28 04:41:31 wadic-cad101 systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+Jan 28 04:41:31 wadic-cad101 whoopsie[2550]: [04:41:31] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/3
+Jan 28 04:41:31 wadic-cad101 whoopsie[2550]: [04:41:31] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/3
+Jan 28 04:41:31 wadic-cad101 whoopsie[2550]: [04:41:31] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/3
+Jan 28 04:41:31 wadic-cad101 dbus-daemon[1178]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 28 04:41:31 wadic-cad101 systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:41:31 wadic-cad101 nm-dispatcher[9523]: req:1 'connectivity-change': new request (1 scripts)
+Jan 28 04:41:31 wadic-cad101 nm-dispatcher[9523]: req:1 'connectivity-change': start running ordered scripts...
+Jan 28 04:41:32 wadic-cad101 whoopsie[2550]: [04:41:32] online
+Jan 28 04:41:35 wadic-cad101 systemd-timesyncd[870]: Synchronized to time server 185.125.190.57:123 (ntp.ubuntu.com).
+Jan 28 04:42:06 wadic-cad101 sudo[9672]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/home/bilal ; USER=root ; COMMAND=/usr/bin/apt install php8.1[0m
+Jan 28 04:42:06 wadic-cad101 sudo[9672]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 04:42:46 wadic-cad101 pkexec[9845]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 28 04:42:46 wadic-cad101 pkexec[9845]: [0;1;39m[0;1;31m[0;1;39mbilal: Executing command [USER=root] [TTY=unknown] [CWD=/home/bilal] [COMMAND=/usr/lib/update-notifier/package-system-locked][0m
+Jan 28 04:42:47 wadic-cad101 update-notifier.desktop[4554]: [0;1;39m[0;1;31m[0;1;39m/var/lib/dpkg/lock:[0m
+Jan 28 04:42:50 wadic-cad101 php8.1-common[10072]: php_invoke calendar: already enabled for PHP 8.1 cli sapi
+Jan 28 04:42:50 wadic-cad101 php8.1-common[10104]: php_invoke calendar: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:42:50 wadic-cad101 php8.1-common[10304]: php_invoke ctype: already enabled for PHP 8.1 cli sapi
+Jan 28 04:42:50 wadic-cad101 php8.1-common[10336]: php_invoke ctype: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:42:51 wadic-cad101 php8.1-common[10536]: php_invoke exif: already enabled for PHP 8.1 cli sapi
+Jan 28 04:42:51 wadic-cad101 php8.1-common[10568]: php_invoke exif: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:42:52 wadic-cad101 php8.1-common[10768]: php_invoke fileinfo: already enabled for PHP 8.1 cli sapi
+Jan 28 04:42:52 wadic-cad101 php8.1-common[10800]: php_invoke fileinfo: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:42:52 wadic-cad101 php8.1-common[11000]: php_invoke ffi: already enabled for PHP 8.1 cli sapi
+Jan 28 04:42:52 wadic-cad101 php8.1-common[11032]: php_invoke ffi: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:42:53 wadic-cad101 php8.1-common[11232]: php_invoke ftp: already enabled for PHP 8.1 cli sapi
+Jan 28 04:42:53 wadic-cad101 php8.1-common[11264]: php_invoke ftp: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:42:53 wadic-cad101 php8.1-common[11464]: php_invoke gettext: already enabled for PHP 8.1 cli sapi
+Jan 28 04:42:53 wadic-cad101 php8.1-common[11496]: php_invoke gettext: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:42:54 wadic-cad101 php8.1-common[11696]: php_invoke iconv: already enabled for PHP 8.1 cli sapi
+Jan 28 04:42:54 wadic-cad101 php8.1-common[11728]: php_invoke iconv: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:42:54 wadic-cad101 php8.1-common[11928]: php_invoke pdo: already enabled for PHP 8.1 cli sapi
+Jan 28 04:42:55 wadic-cad101 php8.1-common[11960]: php_invoke pdo: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:42:55 wadic-cad101 php8.1-common[12160]: php_invoke phar: already enabled for PHP 8.1 cli sapi
+Jan 28 04:42:55 wadic-cad101 php8.1-common[12192]: php_invoke phar: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:42:56 wadic-cad101 php8.1-common[12392]: php_invoke posix: already enabled for PHP 8.1 cli sapi
+Jan 28 04:42:56 wadic-cad101 php8.1-common[12424]: php_invoke posix: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:42:56 wadic-cad101 php8.1-common[12624]: php_invoke shmop: already enabled for PHP 8.1 cli sapi
+Jan 28 04:42:56 wadic-cad101 php8.1-common[12656]: php_invoke shmop: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:42:57 wadic-cad101 php8.1-common[12856]: php_invoke sockets: already enabled for PHP 8.1 cli sapi
+Jan 28 04:42:57 wadic-cad101 php8.1-common[12888]: php_invoke sockets: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:42:57 wadic-cad101 php8.1-common[13089]: php_invoke sysvmsg: already enabled for PHP 8.1 cli sapi
+Jan 28 04:42:57 wadic-cad101 php8.1-common[13121]: php_invoke sysvmsg: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:42:58 wadic-cad101 php8.1-common[13321]: php_invoke sysvsem: already enabled for PHP 8.1 cli sapi
+Jan 28 04:42:58 wadic-cad101 php8.1-common[13353]: php_invoke sysvsem: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:42:59 wadic-cad101 php8.1-common[13553]: php_invoke sysvshm: already enabled for PHP 8.1 cli sapi
+Jan 28 04:42:59 wadic-cad101 php8.1-common[13585]: php_invoke sysvshm: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:42:59 wadic-cad101 php8.1-common[13787]: php_invoke tokenizer: already enabled for PHP 8.1 cli sapi
+Jan 28 04:42:59 wadic-cad101 php8.1-common[13819]: php_invoke tokenizer: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:43:01 wadic-cad101 php8.1-readline[14020]: php_invoke readline: already enabled for PHP 8.1 cli sapi
+Jan 28 04:43:01 wadic-cad101 php8.1-readline[14052]: php_invoke readline: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:43:02 wadic-cad101 php8.1-opcache[14253]: php_invoke opcache: already enabled for PHP 8.1 cli sapi
+Jan 28 04:43:02 wadic-cad101 php8.1-opcache[14285]: php_invoke opcache: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:43:03 wadic-cad101 php8.1-cli[14429]: php_invoke pdo: already enabled for PHP 8.1 cli sapi
+Jan 28 04:43:03 wadic-cad101 php8.1-cli[14462]: php_invoke gettext: already enabled for PHP 8.1 cli sapi
+Jan 28 04:43:03 wadic-cad101 php8.1-cli[14495]: php_invoke phar: already enabled for PHP 8.1 cli sapi
+Jan 28 04:43:03 wadic-cad101 php8.1-cli[14528]: php_invoke readline: already enabled for PHP 8.1 cli sapi
+Jan 28 04:43:03 wadic-cad101 php8.1-cli[14561]: php_invoke calendar: already enabled for PHP 8.1 cli sapi
+Jan 28 04:43:03 wadic-cad101 php8.1-cli[14594]: php_invoke fileinfo: already enabled for PHP 8.1 cli sapi
+Jan 28 04:43:03 wadic-cad101 php8.1-cli[14627]: php_invoke ffi: already enabled for PHP 8.1 cli sapi
+Jan 28 04:43:03 wadic-cad101 php8.1-cli[14660]: php_invoke posix: already enabled for PHP 8.1 cli sapi
+Jan 28 04:43:03 wadic-cad101 php8.1-cli[14693]: php_invoke shmop: already enabled for PHP 8.1 cli sapi
+Jan 28 04:43:03 wadic-cad101 php8.1-cli[14726]: php_invoke exif: already enabled for PHP 8.1 cli sapi
+Jan 28 04:43:03 wadic-cad101 php8.1-cli[14759]: php_invoke iconv: already enabled for PHP 8.1 cli sapi
+Jan 28 04:43:03 wadic-cad101 php8.1-cli[14792]: php_invoke sysvshm: already enabled for PHP 8.1 cli sapi
+Jan 28 04:43:04 wadic-cad101 php8.1-cli[14825]: php_invoke opcache: already enabled for PHP 8.1 cli sapi
+Jan 28 04:43:04 wadic-cad101 php8.1-cli[14858]: php_invoke ftp: already enabled for PHP 8.1 cli sapi
+Jan 28 04:43:04 wadic-cad101 php8.1-cli[14891]: php_invoke sockets: already enabled for PHP 8.1 cli sapi
+Jan 28 04:43:04 wadic-cad101 php8.1-cli[14924]: php_invoke sysvmsg: already enabled for PHP 8.1 cli sapi
+Jan 28 04:43:04 wadic-cad101 php8.1-cli[14957]: php_invoke ctype: already enabled for PHP 8.1 cli sapi
+Jan 28 04:43:04 wadic-cad101 php8.1-cli[14990]: php_invoke tokenizer: already enabled for PHP 8.1 cli sapi
+Jan 28 04:43:04 wadic-cad101 php8.1-cli[15023]: php_invoke sysvsem: already enabled for PHP 8.1 cli sapi
+Jan 28 04:43:05 wadic-cad101 libapache2-mod-php8.1[15168]: php_invoke pdo: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:43:05 wadic-cad101 libapache2-mod-php8.1[15201]: php_invoke gettext: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:43:05 wadic-cad101 libapache2-mod-php8.1[15234]: php_invoke phar: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:43:05 wadic-cad101 libapache2-mod-php8.1[15267]: php_invoke readline: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:43:05 wadic-cad101 libapache2-mod-php8.1[15300]: php_invoke calendar: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:43:06 wadic-cad101 libapache2-mod-php8.1[15333]: php_invoke fileinfo: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:43:06 wadic-cad101 libapache2-mod-php8.1[15366]: php_invoke ffi: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:43:06 wadic-cad101 libapache2-mod-php8.1[15399]: php_invoke posix: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:43:06 wadic-cad101 libapache2-mod-php8.1[15432]: php_invoke shmop: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:43:06 wadic-cad101 libapache2-mod-php8.1[15465]: php_invoke exif: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:43:06 wadic-cad101 libapache2-mod-php8.1[15498]: php_invoke iconv: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:43:06 wadic-cad101 libapache2-mod-php8.1[15531]: php_invoke sysvshm: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:43:06 wadic-cad101 libapache2-mod-php8.1[15564]: php_invoke opcache: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:43:06 wadic-cad101 libapache2-mod-php8.1[15597]: php_invoke ftp: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:43:06 wadic-cad101 libapache2-mod-php8.1[15630]: php_invoke sockets: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:43:06 wadic-cad101 libapache2-mod-php8.1[15663]: php_invoke sysvmsg: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:43:07 wadic-cad101 libapache2-mod-php8.1[15696]: php_invoke ctype: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:43:07 wadic-cad101 libapache2-mod-php8.1[15729]: php_invoke tokenizer: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:43:07 wadic-cad101 libapache2-mod-php8.1[15762]: php_invoke sysvsem: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:43:07 wadic-cad101 libapache2-mod-php8.1[15776]: [0;1;31m[0;1;39m[0;1;31mlibapache2-mod-php8.1: php7.0 module already enabled, not enabling PHP 8.1[0m
+Jan 28 04:43:13 wadic-cad101 sudo[9672]: pam_unix(sudo:session): session closed for user root
+Jan 28 04:43:19 wadic-cad101 sudo[16468]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/home/bilal ; USER=root ; COMMAND=/usr/bin/apt install php8.1-bcmath php8.1-xml php8.1-fpm php8.1-mysql php8.1-zip php8.1-intl php8.1-ldap php8.1-gd php8.1-cli php8.1-bz2 php8.1-curl php8.1-mbstring php8.1-pgsql php8.1-opcache php8.1-soap php8.1-cgi[0m
+Jan 28 04:43:19 wadic-cad101 sudo[16468]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 04:43:42 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[0128/044342.978022:ERROR:file_io_posix.cc(152)] open /home/bilal/.config/google-chrome/Crash Reports/pending/bec82752-d818-4b05-a113-62099816b669.lock: File exists (17)[0m
+Jan 28 04:43:42 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[0128/044342.978108:ERROR:file_io_posix.cc(152)] open /home/bilal/.config/google-chrome/Crash Reports/pending/bec82752-d818-4b05-a113-62099816b669.lock: File exists (17)[0m
+Jan 28 04:43:42 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[0128/044342.978792:ERROR:file_io_posix.cc(152)] open /home/bilal/.config/google-chrome/Crash Reports/pending/bec82752-d818-4b05-a113-62099816b669.lock: File exists (17)[0m
+Jan 28 04:44:08 wadic-cad101 php8.1-cgi[16862]: php_invoke: Enabled module pdo for cgi sapi
+Jan 28 04:44:08 wadic-cad101 php8.1-cgi[16903]: php_invoke: Enabled module gettext for cgi sapi
+Jan 28 04:44:08 wadic-cad101 php8.1-cgi[16944]: php_invoke: Enabled module phar for cgi sapi
+Jan 28 04:44:08 wadic-cad101 php8.1-cgi[16985]: php_invoke: Enabled module readline for cgi sapi
+Jan 28 04:44:08 wadic-cad101 php8.1-cgi[17026]: php_invoke: Enabled module calendar for cgi sapi
+Jan 28 04:44:08 wadic-cad101 php8.1-cgi[17069]: php_invoke: Enabled module fileinfo for cgi sapi
+Jan 28 04:44:08 wadic-cad101 php8.1-cgi[17110]: php_invoke: Enabled module ffi for cgi sapi
+Jan 28 04:44:08 wadic-cad101 php8.1-cgi[17151]: php_invoke: Enabled module posix for cgi sapi
+Jan 28 04:44:08 wadic-cad101 php8.1-cgi[17192]: php_invoke: Enabled module shmop for cgi sapi
+Jan 28 04:44:09 wadic-cad101 php8.1-cgi[17233]: php_invoke: Enabled module exif for cgi sapi
+Jan 28 04:44:09 wadic-cad101 php8.1-cgi[17274]: php_invoke: Enabled module iconv for cgi sapi
+Jan 28 04:44:09 wadic-cad101 php8.1-cgi[17315]: php_invoke: Enabled module sysvshm for cgi sapi
+Jan 28 04:44:09 wadic-cad101 php8.1-cgi[17356]: php_invoke: Enabled module opcache for cgi sapi
+Jan 28 04:44:09 wadic-cad101 php8.1-cgi[17397]: php_invoke: Enabled module ftp for cgi sapi
+Jan 28 04:44:09 wadic-cad101 php8.1-cgi[17438]: php_invoke: Enabled module sockets for cgi sapi
+Jan 28 04:44:09 wadic-cad101 php8.1-cgi[17479]: php_invoke: Enabled module sysvmsg for cgi sapi
+Jan 28 04:44:09 wadic-cad101 php8.1-cgi[17520]: php_invoke: Enabled module ctype for cgi sapi
+Jan 28 04:44:09 wadic-cad101 php8.1-cgi[17561]: php_invoke: Enabled module tokenizer for cgi sapi
+Jan 28 04:44:09 wadic-cad101 php8.1-cgi[17602]: php_invoke: Enabled module sysvsem for cgi sapi
+Jan 28 04:44:10 wadic-cad101 php8.1-pgsql[17851]: php_invoke pgsql: already enabled for PHP 8.1 cgi sapi
+Jan 28 04:44:10 wadic-cad101 php8.1-pgsql[17883]: php_invoke pgsql: already enabled for PHP 8.1 cli sapi
+Jan 28 04:44:10 wadic-cad101 php8.1-pgsql[17915]: php_invoke pgsql: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:44:10 wadic-cad101 php8.1-pgsql[17947]: php_invoke pgsql: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:11 wadic-cad101 php8.1-pgsql[18195]: php_invoke pdo_pgsql: already enabled for PHP 8.1 cgi sapi
+Jan 28 04:44:11 wadic-cad101 php8.1-pgsql[18227]: php_invoke pdo_pgsql: already enabled for PHP 8.1 cli sapi
+Jan 28 04:44:11 wadic-cad101 php8.1-pgsql[18259]: php_invoke pdo_pgsql: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:44:11 wadic-cad101 php8.1-pgsql[18291]: php_invoke pdo_pgsql: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:12 wadic-cad101 php8.1-curl[18540]: php_invoke curl: already enabled for PHP 8.1 cgi sapi
+Jan 28 04:44:12 wadic-cad101 php8.1-curl[18572]: php_invoke curl: already enabled for PHP 8.1 cli sapi
+Jan 28 04:44:12 wadic-cad101 php8.1-curl[18604]: php_invoke curl: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:44:12 wadic-cad101 php8.1-curl[18636]: php_invoke curl: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:13 wadic-cad101 php8.1-mbstring[18885]: php_invoke mbstring: already enabled for PHP 8.1 cgi sapi
+Jan 28 04:44:13 wadic-cad101 php8.1-mbstring[18917]: php_invoke mbstring: already enabled for PHP 8.1 cli sapi
+Jan 28 04:44:13 wadic-cad101 php8.1-mbstring[18949]: php_invoke mbstring: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:44:13 wadic-cad101 php8.1-mbstring[18981]: php_invoke mbstring: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:14 wadic-cad101 php8.1-fpm[19133]: php_invoke: Enabled module pdo for fpm sapi
+Jan 28 04:44:14 wadic-cad101 php8.1-fpm[19174]: php_invoke: Enabled module gettext for fpm sapi
+Jan 28 04:44:14 wadic-cad101 php8.1-fpm[19217]: php_invoke: Enabled module phar for fpm sapi
+Jan 28 04:44:15 wadic-cad101 php8.1-fpm[19258]: php_invoke: Enabled module readline for fpm sapi
+Jan 28 04:44:15 wadic-cad101 php8.1-fpm[19291]: php_invoke pdo_pgsql: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:15 wadic-cad101 php8.1-fpm[19332]: php_invoke: Enabled module calendar for fpm sapi
+Jan 28 04:44:15 wadic-cad101 php8.1-fpm[19365]: php_invoke mbstring: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:15 wadic-cad101 php8.1-fpm[19398]: php_invoke pgsql: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:15 wadic-cad101 php8.1-fpm[19439]: php_invoke: Enabled module fileinfo for fpm sapi
+Jan 28 04:44:15 wadic-cad101 php8.1-fpm[19480]: php_invoke: Enabled module ffi for fpm sapi
+Jan 28 04:44:15 wadic-cad101 php8.1-fpm[19521]: php_invoke: Enabled module posix for fpm sapi
+Jan 28 04:44:15 wadic-cad101 php8.1-fpm[19562]: php_invoke: Enabled module shmop for fpm sapi
+Jan 28 04:44:15 wadic-cad101 php8.1-fpm[19603]: php_invoke: Enabled module exif for fpm sapi
+Jan 28 04:44:15 wadic-cad101 php8.1-fpm[19636]: php_invoke curl: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:16 wadic-cad101 php8.1-fpm[19677]: php_invoke: Enabled module iconv for fpm sapi
+Jan 28 04:44:16 wadic-cad101 php8.1-fpm[19718]: php_invoke: Enabled module sysvshm for fpm sapi
+Jan 28 04:44:16 wadic-cad101 php8.1-fpm[19759]: php_invoke: Enabled module opcache for fpm sapi
+Jan 28 04:44:16 wadic-cad101 php8.1-fpm[19800]: php_invoke: Enabled module ftp for fpm sapi
+Jan 28 04:44:16 wadic-cad101 php8.1-fpm[19841]: php_invoke: Enabled module sockets for fpm sapi
+Jan 28 04:44:16 wadic-cad101 php8.1-fpm[19882]: php_invoke: Enabled module sysvmsg for fpm sapi
+Jan 28 04:44:16 wadic-cad101 php8.1-fpm[19923]: php_invoke: Enabled module ctype for fpm sapi
+Jan 28 04:44:16 wadic-cad101 php8.1-fpm[19964]: php_invoke: Enabled module tokenizer for fpm sapi
+Jan 28 04:44:16 wadic-cad101 php8.1-fpm[20005]: php_invoke: Enabled module sysvsem for fpm sapi
+Jan 28 04:44:16 wadic-cad101 php8.1-fpm[20007]: [0;1;39m[0;1;31m[0;1;39mNOTICE: Not enabling PHP 8.1 FPM by default.[0m
+Jan 28 04:44:16 wadic-cad101 php8.1-fpm[20008]: [0;1;39m[0;1;31m[0;1;39mNOTICE: To enable PHP 8.1 FPM in Apache2 do:[0m
+Jan 28 04:44:16 wadic-cad101 php8.1-fpm[20009]: [0;1;39m[0;1;31m[0;1;39mNOTICE: a2enmod proxy_fcgi setenvif[0m
+Jan 28 04:44:16 wadic-cad101 php8.1-fpm[20010]: [0;1;39m[0;1;31m[0;1;39mNOTICE: a2enconf php8.1-fpm[0m
+Jan 28 04:44:16 wadic-cad101 php8.1-fpm[20011]: [0;1;39m[0;1;31m[0;1;39mNOTICE: You are seeing this message because you have apache2 package installed.[0m
+Jan 28 04:44:16 wadic-cad101 systemd[1]: Reloading.
+Jan 28 04:44:17 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mrabbitmq-server.service: Supervising process 1779 which is not our child. We'll most likely not notice when it exits.[0m
+Jan 28 04:44:17 wadic-cad101 systemd[1]: Reloading.
+Jan 28 04:44:17 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mrabbitmq-server.service: Supervising process 1779 which is not our child. We'll most likely not notice when it exits.[0m
+Jan 28 04:44:17 wadic-cad101 systemd[1]: Reloading.
+Jan 28 04:44:17 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mrabbitmq-server.service: Supervising process 1779 which is not our child. We'll most likely not notice when it exits.[0m
+Jan 28 04:44:17 wadic-cad101 systemd[1]: Starting The PHP 8.1 FastCGI Process Manager...
+-- Subject: Unit php8.1-fpm.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit php8.1-fpm.service has begun starting up.
+Jan 28 04:44:17 wadic-cad101 systemd[1]: Started The PHP 8.1 FastCGI Process Manager.
+-- Subject: Unit php8.1-fpm.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit php8.1-fpm.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:44:18 wadic-cad101 php8.1-zip[20368]: php_invoke zip: already enabled for PHP 8.1 cgi sapi
+Jan 28 04:44:18 wadic-cad101 php8.1-zip[20401]: php_invoke zip: already enabled for PHP 8.1 cli sapi
+Jan 28 04:44:18 wadic-cad101 php8.1-zip[20433]: php_invoke zip: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:44:18 wadic-cad101 php8.1-zip[20465]: php_invoke zip: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:19 wadic-cad101 php8.1-mysql[20714]: php_invoke mysqlnd: already enabled for PHP 8.1 cgi sapi
+Jan 28 04:44:20 wadic-cad101 php8.1-mysql[20746]: php_invoke mysqlnd: already enabled for PHP 8.1 cli sapi
+Jan 28 04:44:20 wadic-cad101 php8.1-mysql[20778]: php_invoke mysqlnd: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:44:20 wadic-cad101 php8.1-mysql[20810]: php_invoke mysqlnd: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:21 wadic-cad101 php8.1-mysql[21058]: php_invoke mysqli: already enabled for PHP 8.1 cgi sapi
+Jan 28 04:44:21 wadic-cad101 php8.1-mysql[21090]: php_invoke mysqli: already enabled for PHP 8.1 cli sapi
+Jan 28 04:44:21 wadic-cad101 php8.1-mysql[21122]: php_invoke mysqli: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:44:21 wadic-cad101 php8.1-mysql[21154]: php_invoke mysqli: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:22 wadic-cad101 php8.1-mysql[21402]: php_invoke pdo_mysql: already enabled for PHP 8.1 cgi sapi
+Jan 28 04:44:22 wadic-cad101 php8.1-mysql[21434]: php_invoke pdo_mysql: already enabled for PHP 8.1 cli sapi
+Jan 28 04:44:22 wadic-cad101 php8.1-mysql[21466]: php_invoke pdo_mysql: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:44:22 wadic-cad101 php8.1-mysql[21498]: php_invoke pdo_mysql: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:23 wadic-cad101 php8.1-intl[21747]: php_invoke intl: already enabled for PHP 8.1 cgi sapi
+Jan 28 04:44:23 wadic-cad101 php8.1-intl[21779]: php_invoke intl: already enabled for PHP 8.1 cli sapi
+Jan 28 04:44:23 wadic-cad101 php8.1-intl[21811]: php_invoke intl: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:44:23 wadic-cad101 php8.1-intl[21843]: php_invoke intl: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:24 wadic-cad101 php8.1-ldap[22092]: php_invoke ldap: already enabled for PHP 8.1 cgi sapi
+Jan 28 04:44:24 wadic-cad101 php8.1-ldap[22124]: php_invoke ldap: already enabled for PHP 8.1 cli sapi
+Jan 28 04:44:24 wadic-cad101 php8.1-ldap[22156]: php_invoke ldap: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:44:24 wadic-cad101 php8.1-ldap[22188]: php_invoke ldap: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:25 wadic-cad101 php8.1-xml[22437]: php_invoke dom: already enabled for PHP 8.1 cgi sapi
+Jan 28 04:44:25 wadic-cad101 php8.1-xml[22469]: php_invoke dom: already enabled for PHP 8.1 cli sapi
+Jan 28 04:44:25 wadic-cad101 php8.1-xml[22501]: php_invoke dom: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:44:25 wadic-cad101 php8.1-xml[22533]: php_invoke dom: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:25 wadic-cad101 php8.1-xml[22781]: php_invoke simplexml: already enabled for PHP 8.1 cgi sapi
+Jan 28 04:44:25 wadic-cad101 php8.1-xml[22813]: php_invoke simplexml: already enabled for PHP 8.1 cli sapi
+Jan 28 04:44:26 wadic-cad101 php8.1-xml[22845]: php_invoke simplexml: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:44:26 wadic-cad101 php8.1-xml[22877]: php_invoke simplexml: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:26 wadic-cad101 php8.1-xml[23125]: php_invoke xml: already enabled for PHP 8.1 cgi sapi
+Jan 28 04:44:26 wadic-cad101 php8.1-xml[23157]: php_invoke xml: already enabled for PHP 8.1 cli sapi
+Jan 28 04:44:26 wadic-cad101 php8.1-xml[23189]: php_invoke xml: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:44:26 wadic-cad101 php8.1-xml[23221]: php_invoke xml: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:27 wadic-cad101 php8.1-xml[23469]: php_invoke xmlreader: already enabled for PHP 8.1 cgi sapi
+Jan 28 04:44:27 wadic-cad101 php8.1-xml[23501]: php_invoke xmlreader: already enabled for PHP 8.1 cli sapi
+Jan 28 04:44:27 wadic-cad101 php8.1-xml[23533]: php_invoke xmlreader: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:44:27 wadic-cad101 php8.1-xml[23565]: php_invoke xmlreader: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:28 wadic-cad101 php8.1-xml[23813]: php_invoke xmlwriter: already enabled for PHP 8.1 cgi sapi
+Jan 28 04:44:28 wadic-cad101 php8.1-xml[23845]: php_invoke xmlwriter: already enabled for PHP 8.1 cli sapi
+Jan 28 04:44:28 wadic-cad101 php8.1-xml[23877]: php_invoke xmlwriter: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:44:28 wadic-cad101 php8.1-xml[23909]: php_invoke xmlwriter: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:28 wadic-cad101 php8.1-xml[24159]: php_invoke xsl: already enabled for PHP 8.1 cgi sapi
+Jan 28 04:44:29 wadic-cad101 php8.1-xml[24191]: php_invoke xsl: already enabled for PHP 8.1 cli sapi
+Jan 28 04:44:29 wadic-cad101 php8.1-xml[24223]: php_invoke xsl: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:44:29 wadic-cad101 php8.1-xml[24255]: php_invoke xsl: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:29 wadic-cad101 php8.1-bz2[24504]: php_invoke bz2: already enabled for PHP 8.1 cgi sapi
+Jan 28 04:44:29 wadic-cad101 php8.1-bz2[24536]: php_invoke bz2: already enabled for PHP 8.1 cli sapi
+Jan 28 04:44:30 wadic-cad101 php8.1-bz2[24568]: php_invoke bz2: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:44:30 wadic-cad101 php8.1-bz2[24600]: php_invoke bz2: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:30 wadic-cad101 php8.1-bcmath[24849]: php_invoke bcmath: already enabled for PHP 8.1 cgi sapi
+Jan 28 04:44:30 wadic-cad101 php8.1-bcmath[24881]: php_invoke bcmath: already enabled for PHP 8.1 cli sapi
+Jan 28 04:44:31 wadic-cad101 php8.1-bcmath[24913]: php_invoke bcmath: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:44:31 wadic-cad101 php8.1-bcmath[24945]: php_invoke bcmath: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:32 wadic-cad101 php8.1-soap[25194]: php_invoke soap: already enabled for PHP 8.1 cgi sapi
+Jan 28 04:44:32 wadic-cad101 php8.1-soap[25226]: php_invoke soap: already enabled for PHP 8.1 cli sapi
+Jan 28 04:44:32 wadic-cad101 php8.1-soap[25258]: php_invoke soap: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:44:32 wadic-cad101 php8.1-soap[25290]: php_invoke soap: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:33 wadic-cad101 php8.1-gd[25552]: php_invoke gd: already enabled for PHP 8.1 cgi sapi
+Jan 28 04:44:33 wadic-cad101 php8.1-gd[25584]: php_invoke gd: already enabled for PHP 8.1 cli sapi
+Jan 28 04:44:33 wadic-cad101 php8.1-gd[25616]: php_invoke gd: already enabled for PHP 8.1 apache2 sapi
+Jan 28 04:44:33 wadic-cad101 php8.1-gd[25648]: php_invoke gd: already enabled for PHP 8.1 fpm sapi
+Jan 28 04:44:34 wadic-cad101 systemd[1]: Reloading.
+Jan 28 04:44:34 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mrabbitmq-server.service: Supervising process 1779 which is not our child. We'll most likely not notice when it exits.[0m
+Jan 28 04:44:36 wadic-cad101 systemd[1]: Reloading.
+Jan 28 04:44:36 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mrabbitmq-server.service: Supervising process 1779 which is not our child. We'll most likely not notice when it exits.[0m
+Jan 28 04:44:36 wadic-cad101 systemd[1]: Stopping The PHP 8.1 FastCGI Process Manager...
+-- Subject: Unit php8.1-fpm.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit php8.1-fpm.service has begun shutting down.
+Jan 28 04:44:36 wadic-cad101 systemd[1]: Stopped The PHP 8.1 FastCGI Process Manager.
+-- Subject: Unit php8.1-fpm.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit php8.1-fpm.service has finished shutting down.
+Jan 28 04:44:36 wadic-cad101 systemd[1]: Starting The PHP 8.1 FastCGI Process Manager...
+-- Subject: Unit php8.1-fpm.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit php8.1-fpm.service has begun starting up.
+Jan 28 04:44:36 wadic-cad101 systemd[1]: Started The PHP 8.1 FastCGI Process Manager.
+-- Subject: Unit php8.1-fpm.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit php8.1-fpm.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:44:36 wadic-cad101 php8.1-fpm[26089]: [0;1;39m[0;1;31m[0;1;39mNOTICE: Not enabling PHP 8.1 FPM by default.[0m
+Jan 28 04:44:36 wadic-cad101 php8.1-fpm[26090]: [0;1;39m[0;1;31m[0;1;39mNOTICE: To enable PHP 8.1 FPM in Apache2 do:[0m
+Jan 28 04:44:36 wadic-cad101 php8.1-fpm[26091]: [0;1;39m[0;1;31m[0;1;39mNOTICE: a2enmod proxy_fcgi setenvif[0m
+Jan 28 04:44:36 wadic-cad101 php8.1-fpm[26092]: [0;1;39m[0;1;31m[0;1;39mNOTICE: a2enconf php8.1-fpm[0m
+Jan 28 04:44:36 wadic-cad101 php8.1-fpm[26093]: [0;1;39m[0;1;31m[0;1;39mNOTICE: You are seeing this message because you have apache2 package installed.[0m
+Jan 28 04:44:39 wadic-cad101 sudo[16468]: pam_unix(sudo:session): session closed for user root
+Jan 28 04:45:01 wadic-cad101 CRON[26200]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 04:45:01 wadic-cad101 CRON[26201]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 28 04:45:01 wadic-cad101 CRON[26200]: pam_unix(cron:session): session closed for user root
+Jan 28 04:45:44 wadic-cad101 systemd[1]: Starting Cleanup of Temporary Directories...
+-- Subject: Unit systemd-tmpfiles-clean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-tmpfiles-clean.service has begun starting up.
+Jan 28 04:45:44 wadic-cad101 systemd[1]: Started Cleanup of Temporary Directories.
+-- Subject: Unit systemd-tmpfiles-clean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-tmpfiles-clean.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:45:46 wadic-cad101 pkexec[26304]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 28 04:45:47 wadic-cad101 pkexec[26304]: [0;1;39m[0;1;31m[0;1;39mbilal: Executing command [USER=root] [TTY=unknown] [CWD=/home/bilal] [COMMAND=/usr/lib/update-notifier/package-system-locked][0m
+Jan 28 04:47:14 wadic-cad101 sudo[26513]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/var/www/html/slippa ; USER=root ; COMMAND=/bin/systemctl status php[0m
+Jan 28 04:47:15 wadic-cad101 sudo[26513]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 04:47:15 wadic-cad101 sudo[26513]: pam_unix(sudo:session): session closed for user root
+Jan 28 04:48:10 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[4601:26483:0128/044810.522681:ERROR:cert_verify_proc_builtin.cc(700)] CertVerifyProcBuiltin for ostechnix.com failed:[0m
+Jan 28 04:48:10 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m----- Certificate i=2 (CN=GTS Root R4,O=Google Trust Services LLC,C=US) -----[0m
+Jan 28 04:48:10 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39mERROR: No matching issuer found[0m
+Jan 28 04:48:16 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39mError in cpuinfo: failed to parse processor information from /proc/cpuinfo[0m
+Jan 28 04:48:42 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[0128/044842.993954:ERROR:file_io_posix.cc(152)] open /home/bilal/.config/google-chrome/Crash Reports/pending/bec82752-d818-4b05-a113-62099816b669.lock: File exists (17)[0m
+Jan 28 04:48:43 wadic-cad101 sudo[26667]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/var/www/html/slippa ; USER=root ; COMMAND=/usr/sbin/a2dismod php7.2[0m
+Jan 28 04:48:43 wadic-cad101 sudo[26667]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 04:48:43 wadic-cad101 sudo[26667]: pam_unix(sudo:session): session closed for user root
+Jan 28 04:49:13 wadic-cad101 sudo[26702]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/var/www/html/slippa ; USER=root ; COMMAND=/usr/sbin/a2enmod php8.1[0m
+Jan 28 04:49:13 wadic-cad101 sudo[26702]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 04:49:13 wadic-cad101 sudo[26702]: pam_unix(sudo:session): session closed for user root
+Jan 28 04:49:27 wadic-cad101 polkitd(authority=local)[1461]: [0;1;39m[0;1;31m[0;1;39mRegistered Authentication Agent for unix-process:26719:113174 (system bus name :1.157 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)[0m
+Jan 28 04:49:30 wadic-cad101 polkitd(authority=local)[1461]: [0;1;39m[0;1;31m[0;1;39mOperator of unix-session:2 successfully authenticated as unix-user:bilal to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.158 [systemctl restart apache2] (owned by unix-user:bilal)[0m
+Jan 28 04:49:30 wadic-cad101 systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: Unit apache2.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has begun shutting down.
+Jan 28 04:49:30 wadic-cad101 apachectl[26730]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.0.103. Set the 'ServerName' directive globally to suppress this message
+Jan 28 04:49:30 wadic-cad101 systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: Unit apache2.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has finished shutting down.
+Jan 28 04:49:30 wadic-cad101 systemd[1]: Starting The Apache HTTP Server...
+-- Subject: Unit apache2.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has begun starting up.
+Jan 28 04:49:30 wadic-cad101 apachectl[26735]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.0.103. Set the 'ServerName' directive globally to suppress this message
+Jan 28 04:49:30 wadic-cad101 kernel: apache2[26753]: segfault at 0 ip 00007f7ca0a0073d sp 00007ffdac3a09b0 error 4 in libphp7.0.so[7f7ca07d1000+390000]
+Jan 28 04:49:30 wadic-cad101 kernel: Code: e9 68 ca ff ff 0f 1f 84 00 00 00 00 00 ff a0 70 01 00 00 66 2e 0f 1f 84 00 00 00 00 00 55 53 48 83 ec 08 48 8b 2d a3 56 3f 00 <8b> 45 00 85 c0 0f 85 e0 00 00 00 48 81 ff 00 0c 00 00 77 5f 48 83
+Jan 28 04:49:30 wadic-cad101 apachectl[26735]: Segmentation fault (core dumped)
+Jan 28 04:49:30 wadic-cad101 apachectl[26735]: Action 'start' failed.
+Jan 28 04:49:30 wadic-cad101 apachectl[26735]: The Apache error log may have more information.
+Jan 28 04:49:30 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited status=139[0m
+Jan 28 04:49:30 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Failed with result 'exit-code'.[0m
+Jan 28 04:49:30 wadic-cad101 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start The Apache HTTP Server.[0m
+-- Subject: Unit apache2.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has failed.
+-- 
+-- The result is RESULT.
+Jan 28 04:49:30 wadic-cad101 polkitd(authority=local)[1461]: [0;1;39m[0;1;31m[0;1;39mUnregistered Authentication Agent for unix-process:26719:113174 (system bus name :1.157, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)[0m
+Jan 28 04:49:45 wadic-cad101 sudo[26803]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/var/www/html/slippa ; USER=root ; COMMAND=/bin/systemctl restart apache2[0m
+Jan 28 04:49:45 wadic-cad101 sudo[26803]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 04:49:45 wadic-cad101 systemd[1]: Starting The Apache HTTP Server...
+-- Subject: Unit apache2.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has begun starting up.
+Jan 28 04:49:45 wadic-cad101 apachectl[26806]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.0.103. Set the 'ServerName' directive globally to suppress this message
+Jan 28 04:49:45 wadic-cad101 kernel: apache2[26820]: segfault at 0 ip 00007f3d0a8ee73d sp 00007ffcef933070 error 4 in libphp7.0.so[7f3d0a6bf000+390000]
+Jan 28 04:49:45 wadic-cad101 kernel: Code: e9 68 ca ff ff 0f 1f 84 00 00 00 00 00 ff a0 70 01 00 00 66 2e 0f 1f 84 00 00 00 00 00 55 53 48 83 ec 08 48 8b 2d a3 56 3f 00 <8b> 45 00 85 c0 0f 85 e0 00 00 00 48 81 ff 00 0c 00 00 77 5f 48 83
+Jan 28 04:49:45 wadic-cad101 apachectl[26806]: Segmentation fault (core dumped)
+Jan 28 04:49:45 wadic-cad101 apachectl[26806]: Action 'start' failed.
+Jan 28 04:49:45 wadic-cad101 apachectl[26806]: The Apache error log may have more information.
+Jan 28 04:49:45 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited status=139[0m
+Jan 28 04:49:45 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Failed with result 'exit-code'.[0m
+Jan 28 04:49:45 wadic-cad101 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start The Apache HTTP Server.[0m
+-- Subject: Unit apache2.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has failed.
+-- 
+-- The result is RESULT.
+Jan 28 04:49:45 wadic-cad101 sudo[26803]: pam_unix(sudo:session): session closed for user root
+Jan 28 04:50:32 wadic-cad101 sudo[26897]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/var/www/html/slippa ; USER=root ; COMMAND=/usr/bin/update-alternatives --set php /usr/bin/php8.1[0m
+Jan 28 04:50:32 wadic-cad101 sudo[26897]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 04:50:32 wadic-cad101 sudo[26897]: pam_unix(sudo:session): session closed for user root
+Jan 28 04:50:51 wadic-cad101 sudo[26931]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/var/www/html/slippa ; USER=root ; COMMAND=/usr/sbin/service apache2 restart[0m
+Jan 28 04:50:51 wadic-cad101 sudo[26931]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 04:50:51 wadic-cad101 systemd[1]: Starting The Apache HTTP Server...
+-- Subject: Unit apache2.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has begun starting up.
+Jan 28 04:50:51 wadic-cad101 apachectl[26937]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.0.103. Set the 'ServerName' directive globally to suppress this message
+Jan 28 04:50:51 wadic-cad101 kernel: apache2[26948]: segfault at 0 ip 00007fb85fdff73d sp 00007fff98ffcdb0 error 4 in libphp7.0.so[7fb85fbd0000+390000]
+Jan 28 04:50:51 wadic-cad101 kernel: Code: e9 68 ca ff ff 0f 1f 84 00 00 00 00 00 ff a0 70 01 00 00 66 2e 0f 1f 84 00 00 00 00 00 55 53 48 83 ec 08 48 8b 2d a3 56 3f 00 <8b> 45 00 85 c0 0f 85 e0 00 00 00 48 81 ff 00 0c 00 00 77 5f 48 83
+Jan 28 04:50:51 wadic-cad101 apachectl[26937]: Segmentation fault (core dumped)
+Jan 28 04:50:51 wadic-cad101 apachectl[26937]: Action 'start' failed.
+Jan 28 04:50:51 wadic-cad101 apachectl[26937]: The Apache error log may have more information.
+Jan 28 04:50:51 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited status=139[0m
+Jan 28 04:50:51 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Failed with result 'exit-code'.[0m
+Jan 28 04:50:51 wadic-cad101 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start The Apache HTTP Server.[0m
+-- Subject: Unit apache2.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has failed.
+-- 
+-- The result is RESULT.
+Jan 28 04:50:51 wadic-cad101 sudo[26931]: pam_unix(sudo:session): session closed for user root
+Jan 28 04:52:09 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Activating service name='org.gnome.Nautilus' requested by ':1.21' (uid=1000 pid=4110 comm="/usr/bin/gnome-shell " label="unconfined")
+Jan 28 04:52:09 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Successfully activated service 'org.gnome.Nautilus'
+Jan 28 04:52:10 wadic-cad101 dbus-daemon[1178]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.163' (uid=1000 pid=27021 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Jan 28 04:52:10 wadic-cad101 systemd[1]: Starting Hostname Service...
+-- Subject: Unit systemd-hostnamed.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-hostnamed.service has begun starting up.
+Jan 28 04:52:10 wadic-cad101 dbus-daemon[1178]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jan 28 04:52:10 wadic-cad101 systemd[1]: Started Hostname Service.
+-- Subject: Unit systemd-hostnamed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-hostnamed.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 04:52:10 wadic-cad101 nautilus[27021]: [0;1;39m[0;1;31m[0;1;39mCalled "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)[0m
+Jan 28 04:52:20 wadic-cad101 gnome-shell[4110]: [0;1;39m[0;1;31m[0;1;39mJS WARNING: [resource:///org/gnome/shell/ui/search.js 506]: reference to undefined property "_searchCancelTimeoutId"[0m
+Jan 28 04:52:21 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Activating service name='org.gnome.ControlCenter.SearchProvider' requested by ':1.21' (uid=1000 pid=4110 comm="/usr/bin/gnome-shell " label="unconfined")
+Jan 28 04:52:21 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Activating service name='org.gnome.Calendar' requested by ':1.21' (uid=1000 pid=4110 comm="/usr/bin/gnome-shell " label="unconfined")
+Jan 28 04:52:21 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Activating service name='org.gnome.seahorse.Application' requested by ':1.21' (uid=1000 pid=4110 comm="/usr/bin/gnome-shell " label="unconfined")
+Jan 28 04:52:21 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Successfully activated service 'org.gnome.ControlCenter.SearchProvider'
+Jan 28 04:52:21 wadic-cad101 gnome-shell[4110]: [0;1;39m[0;1;31m[0;1;39mJS WARNING: [resource:///org/gnome/shell/ui/search.js 599]: reference to undefined property "_searchCancelTimeoutId"[0m
+Jan 28 04:52:21 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Successfully activated service 'org.gnome.seahorse.Application'
+Jan 28 04:52:21 wadic-cad101 dbus-daemon[3978]: [session uid=1000 pid=3978] Successfully activated service 'org.gnome.Calendar'
+Jan 28 04:52:21 wadic-cad101 nautilus[27021]: [0;1;39m[0;1;31m[0;1;39mg_key_file_load_from_file: assertion 'file != NULL' failed[0m
+Jan 28 04:52:21 wadic-cad101 nautilus[27021]: [0;1;39m[0;1;31m[0;1;39mCould not establish a connection to Tracker: Failed to load SPARQL backend: Key file does not have group “DomainOntology”[0m
+Jan 28 04:52:21 wadic-cad101 nautilus[27021]: [0;1;39m[0;1;31m[0;1;39mg_queue_pop_head: assertion 'queue != NULL' failed[0m
+Jan 28 04:52:22 wadic-cad101 nautilus[27021]: [0;1;39m[0;1;31m[0;1;39mg_queue_foreach: assertion 'queue != NULL' failed[0m
+Jan 28 04:52:22 wadic-cad101 nautilus[27021]: [0;1;39m[0;1;31m[0;1;39mg_queue_free: assertion 'queue != NULL' failed[0m
+Jan 28 04:52:22 wadic-cad101 nautilus[27021]: [0;1;39m[0;1;31m[0;1;39mg_queue_pop_head: assertion 'queue != NULL' failed[0m
+Jan 28 04:52:24 wadic-cad101 nautilus[27021]: [0;1;39m[0;1;31m[0;1;39mg_queue_foreach: assertion 'queue != NULL' failed[0m
+Jan 28 04:52:24 wadic-cad101 nautilus[27021]: [0;1;39m[0;1;31m[0;1;39mg_queue_free: assertion 'queue != NULL' failed[0m
+Jan 28 04:55:01 wadic-cad101 CRON[27321]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 04:55:01 wadic-cad101 CRON[27322]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 28 04:55:01 wadic-cad101 CRON[27321]: pam_unix(cron:session): session closed for user root
+Jan 28 05:00:02 wadic-cad101 sudo[27766]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/var/www/html/slippa ; USER=root ; COMMAND=/usr/sbin/a2dismod php8.1[0m
+Jan 28 05:00:02 wadic-cad101 sudo[27766]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 05:00:02 wadic-cad101 sudo[27766]: pam_unix(sudo:session): session closed for user root
+Jan 28 05:00:10 wadic-cad101 polkitd(authority=local)[1461]: [0;1;39m[0;1;31m[0;1;39mRegistered Authentication Agent for unix-process:27779:177464 (system bus name :1.167 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)[0m
+Jan 28 05:00:12 wadic-cad101 polkitd(authority=local)[1461]: [0;1;39m[0;1;31m[0;1;39mOperator of unix-session:2 successfully authenticated as unix-user:bilal to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.168 [systemctl restart apache2] (owned by unix-user:bilal)[0m
+Jan 28 05:00:12 wadic-cad101 systemd[1]: Starting The Apache HTTP Server...
+-- Subject: Unit apache2.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has begun starting up.
+Jan 28 05:00:12 wadic-cad101 apachectl[27789]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.0.103. Set the 'ServerName' directive globally to suppress this message
+Jan 28 05:00:12 wadic-cad101 systemd[1]: Started The Apache HTTP Server.
+-- Subject: Unit apache2.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 05:00:13 wadic-cad101 polkitd(authority=local)[1461]: [0;1;39m[0;1;31m[0;1;39mUnregistered Authentication Agent for unix-process:27779:177464 (system bus name :1.167, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)[0m
+Jan 28 05:01:09 wadic-cad101 sudo[27846]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/var/www/html/slippa ; USER=root ; COMMAND=/usr/sbin/a2enmod php7.2[0m
+Jan 28 05:01:09 wadic-cad101 sudo[27846]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 05:01:09 wadic-cad101 sudo[27846]: pam_unix(sudo:session): session closed for user root
+Jan 28 05:01:19 wadic-cad101 polkitd(authority=local)[1461]: [0;1;39m[0;1;31m[0;1;39mRegistered Authentication Agent for unix-process:27859:184360 (system bus name :1.171 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)[0m
+Jan 28 05:01:21 wadic-cad101 polkit-agent-helper-1[27866]: [0;1;39m[0;1;31m[0;1;39mpam_unix(polkit-1:auth): authentication failure; logname= uid=1000 euid=0 tty= ruser=bilal rhost=  user=bilal[0m
+Jan 28 05:01:23 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39mpolkit-agent-helper-1: pam_authenticate failed: Authentication failure[0m
+Jan 28 05:01:25 wadic-cad101 polkitd(authority=local)[1461]: [0;1;39m[0;1;31m[0;1;39mOperator of unix-session:2 successfully authenticated as unix-user:bilal to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.172 [systemctl restart apache2] (owned by unix-user:bilal)[0m
+Jan 28 05:01:25 wadic-cad101 systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: Unit apache2.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has begun shutting down.
+Jan 28 05:01:25 wadic-cad101 apachectl[27870]: [Sat Jan 28 05:01:25.994892 2023] [so:warn] [pid 27872] AH01574: module php7_module is already loaded, skipping
+Jan 28 05:01:26 wadic-cad101 apachectl[27870]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.0.103. Set the 'ServerName' directive globally to suppress this message
+Jan 28 05:01:26 wadic-cad101 systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: Unit apache2.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has finished shutting down.
+Jan 28 05:01:26 wadic-cad101 systemd[1]: Starting The Apache HTTP Server...
+-- Subject: Unit apache2.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has begun starting up.
+Jan 28 05:01:26 wadic-cad101 apachectl[27876]: [Sat Jan 28 05:01:26.203197 2023] [so:warn] [pid 27889] AH01574: module php7_module is already loaded, skipping
+Jan 28 05:01:26 wadic-cad101 apachectl[27876]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.0.103. Set the 'ServerName' directive globally to suppress this message
+Jan 28 05:01:26 wadic-cad101 systemd[1]: Started The Apache HTTP Server.
+-- Subject: Unit apache2.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 05:01:26 wadic-cad101 polkitd(authority=local)[1461]: [0;1;39m[0;1;31m[0;1;39mUnregistered Authentication Agent for unix-process:27859:184360 (system bus name :1.171, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)[0m
+Jan 28 05:02:25 wadic-cad101 sudo[27981]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/var/www/html/slippa ; USER=root ; COMMAND=/usr/bin/update-alternatives --set php /usr/bin/php7.2[0m
+Jan 28 05:02:25 wadic-cad101 sudo[27981]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 05:02:25 wadic-cad101 sudo[27981]: pam_unix(sudo:session): session closed for user root
+Jan 28 05:03:11 wadic-cad101 systemd[1]: Started Run anacron jobs.
+-- Subject: Unit anacron.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit anacron.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 05:03:11 wadic-cad101 anacron[28031]: [0;1;39m[0;1;31m[0;1;39mAnacron 2.3 started on 2023-01-28[0m
+Jan 28 05:03:11 wadic-cad101 anacron[28031]: [0;1;39m[0;1;31m[0;1;39mNormal exit (0 jobs run)[0m
+Jan 28 05:03:42 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[0128/050342.994322:ERROR:file_io_posix.cc(152)] open /home/bilal/.config/google-chrome/Crash Reports/pending/bec82752-d818-4b05-a113-62099816b669.lock: File exists (17)[0m
+Jan 28 05:04:53 wadic-cad101 sudo[28149]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/var/www/html/slippa ; USER=root ; COMMAND=/usr/sbin/a2dismod php7.2[0m
+Jan 28 05:04:53 wadic-cad101 sudo[28149]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 05:04:53 wadic-cad101 sudo[28149]: pam_unix(sudo:session): session closed for user root
+Jan 28 05:05:01 wadic-cad101 CRON[28162]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 05:05:01 wadic-cad101 CRON[28163]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 28 05:05:01 wadic-cad101 CRON[28162]: pam_unix(cron:session): session closed for user root
+Jan 28 05:05:33 wadic-cad101 sudo[28174]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/var/www/html/slippa ; USER=root ; COMMAND=/usr/sbin/a2enmod php8.1[0m
+Jan 28 05:05:33 wadic-cad101 sudo[28174]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 05:05:33 wadic-cad101 sudo[28174]: pam_unix(sudo:session): session closed for user root
+Jan 28 05:05:39 wadic-cad101 polkitd(authority=local)[1461]: [0;1;39m[0;1;31m[0;1;39mRegistered Authentication Agent for unix-process:28185:210318 (system bus name :1.175 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)[0m
+Jan 28 05:05:44 wadic-cad101 polkitd(authority=local)[1461]: [0;1;39m[0;1;31m[0;1;39mOperator of unix-session:2 successfully authenticated as unix-user:bilal to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.176 [systemctl restart apache2] (owned by unix-user:bilal)[0m
+Jan 28 05:05:44 wadic-cad101 systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: Unit apache2.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has begun shutting down.
+Jan 28 05:05:44 wadic-cad101 apachectl[28195]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.0.103. Set the 'ServerName' directive globally to suppress this message
+Jan 28 05:05:45 wadic-cad101 systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: Unit apache2.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has finished shutting down.
+Jan 28 05:05:45 wadic-cad101 systemd[1]: Starting The Apache HTTP Server...
+-- Subject: Unit apache2.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has begun starting up.
+Jan 28 05:05:45 wadic-cad101 apachectl[28200]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.0.103. Set the 'ServerName' directive globally to suppress this message
+Jan 28 05:05:45 wadic-cad101 kernel: apache2[28211]: segfault at 0 ip 00007effbeb2e73d sp 00007ffe62540e60 error 4 in libphp7.0.so[7effbe8ff000+390000]
+Jan 28 05:05:45 wadic-cad101 kernel: Code: e9 68 ca ff ff 0f 1f 84 00 00 00 00 00 ff a0 70 01 00 00 66 2e 0f 1f 84 00 00 00 00 00 55 53 48 83 ec 08 48 8b 2d a3 56 3f 00 <8b> 45 00 85 c0 0f 85 e0 00 00 00 48 81 ff 00 0c 00 00 77 5f 48 83
+Jan 28 05:05:45 wadic-cad101 apachectl[28200]: Segmentation fault (core dumped)
+Jan 28 05:05:45 wadic-cad101 apachectl[28200]: Action 'start' failed.
+Jan 28 05:05:45 wadic-cad101 apachectl[28200]: The Apache error log may have more information.
+Jan 28 05:05:45 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited status=139[0m
+Jan 28 05:05:45 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Failed with result 'exit-code'.[0m
+Jan 28 05:05:45 wadic-cad101 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start The Apache HTTP Server.[0m
+-- Subject: Unit apache2.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has failed.
+-- 
+-- The result is RESULT.
+Jan 28 05:05:45 wadic-cad101 polkitd(authority=local)[1461]: [0;1;39m[0;1;31m[0;1;39mUnregistered Authentication Agent for unix-process:28185:210318 (system bus name :1.175, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)[0m
+Jan 28 05:06:33 wadic-cad101 sudo[28295]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/var/www/html/slippa ; USER=root ; COMMAND=/usr/bin/update-alternatives --set php /usr/bin/php8.1[0m
+Jan 28 05:06:33 wadic-cad101 sudo[28295]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 05:06:33 wadic-cad101 sudo[28295]: pam_unix(sudo:session): session closed for user root
+Jan 28 05:06:38 wadic-cad101 polkitd(authority=local)[1461]: [0;1;39m[0;1;31m[0;1;39mRegistered Authentication Agent for unix-process:28299:216212 (system bus name :1.179 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)[0m
+Jan 28 05:06:40 wadic-cad101 polkitd(authority=local)[1461]: [0;1;39m[0;1;31m[0;1;39mOperator of unix-session:2 successfully authenticated as unix-user:bilal to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.180 [systemctl restart apache2] (owned by unix-user:bilal)[0m
+Jan 28 05:06:40 wadic-cad101 systemd[1]: Starting The Apache HTTP Server...
+-- Subject: Unit apache2.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has begun starting up.
+Jan 28 05:06:40 wadic-cad101 apachectl[28309]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.0.103. Set the 'ServerName' directive globally to suppress this message
+Jan 28 05:06:40 wadic-cad101 kernel: apache2[28326]: segfault at 0 ip 00007f416987773d sp 00007ffd8f6b7810 error 4 in libphp7.0.so[7f4169648000+390000]
+Jan 28 05:06:40 wadic-cad101 kernel: Code: e9 68 ca ff ff 0f 1f 84 00 00 00 00 00 ff a0 70 01 00 00 66 2e 0f 1f 84 00 00 00 00 00 55 53 48 83 ec 08 48 8b 2d a3 56 3f 00 <8b> 45 00 85 c0 0f 85 e0 00 00 00 48 81 ff 00 0c 00 00 77 5f 48 83
+Jan 28 05:06:40 wadic-cad101 apachectl[28309]: Segmentation fault (core dumped)
+Jan 28 05:06:40 wadic-cad101 apachectl[28309]: Action 'start' failed.
+Jan 28 05:06:40 wadic-cad101 apachectl[28309]: The Apache error log may have more information.
+Jan 28 05:06:40 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited status=139[0m
+Jan 28 05:06:40 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Failed with result 'exit-code'.[0m
+Jan 28 05:06:40 wadic-cad101 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start The Apache HTTP Server.[0m
+-- Subject: Unit apache2.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has failed.
+-- 
+-- The result is RESULT.
+Jan 28 05:06:40 wadic-cad101 polkitd(authority=local)[1461]: [0;1;39m[0;1;31m[0;1;39mUnregistered Authentication Agent for unix-process:28299:216212 (system bus name :1.179, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)[0m
+Jan 28 05:08:22 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39mFontconfig error: Cannot load default config file: No such file: (null)[0m
+Jan 28 05:09:01 wadic-cad101 CRON[28505]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 05:09:01 wadic-cad101 CRON[28506]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 28 05:09:01 wadic-cad101 CRON[28505]: pam_unix(cron:session): session closed for user root
+Jan 28 05:09:01 wadic-cad101 systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+Jan 28 05:09:01 wadic-cad101 systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 05:11:35 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39mError in cpuinfo: failed to parse processor information from /proc/cpuinfo[0m
+Jan 28 05:12:43 wadic-cad101 sudo[29107]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/home/bilal ; USER=root ; COMMAND=/usr/bin/apt-get remove composer[0m
+Jan 28 05:12:43 wadic-cad101 sudo[29107]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 05:12:57 wadic-cad101 sudo[29107]: pam_unix(sudo:session): session closed for user root
+Jan 28 05:13:12 wadic-cad101 sudo[29432]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/home/bilal ; USER=root ; COMMAND=/usr/bin/php composer-setup.php --install-dir=/usr/local/bin --filename=composer[0m
+Jan 28 05:13:12 wadic-cad101 sudo[29432]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 05:13:17 wadic-cad101 sudo[29432]: pam_unix(sudo:session): session closed for user root
+Jan 28 05:15:01 wadic-cad101 CRON[29593]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 05:15:01 wadic-cad101 CRON[29594]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 28 05:15:01 wadic-cad101 CRON[29593]: pam_unix(cron:session): session closed for user root
+Jan 28 05:15:46 wadic-cad101 pkexec[29634]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 28 05:15:46 wadic-cad101 pkexec[29634]: [0;1;39m[0;1;31m[0;1;39mbilal: Executing command [USER=root] [TTY=unknown] [CWD=/home/bilal] [COMMAND=/usr/lib/update-notifier/package-system-locked][0m
+Jan 28 05:16:55 wadic-cad101 sudo[29825]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/var/www/html/slippa ; USER=root ; COMMAND=/usr/sbin/a2dismod php8.1[0m
+Jan 28 05:16:55 wadic-cad101 sudo[29825]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 05:16:55 wadic-cad101 sudo[29825]: pam_unix(sudo:session): session closed for user root
+Jan 28 05:17:01 wadic-cad101 CRON[29836]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 05:17:01 wadic-cad101 CRON[29837]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 28 05:17:01 wadic-cad101 CRON[29836]: pam_unix(cron:session): session closed for user root
+Jan 28 05:17:13 wadic-cad101 sudo[29904]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/var/www/html/slippa ; USER=root ; COMMAND=/usr/sbin/a2enmod php7.2[0m
+Jan 28 05:17:13 wadic-cad101 sudo[29904]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 05:17:13 wadic-cad101 sudo[29904]: pam_unix(sudo:session): session closed for user root
+Jan 28 05:17:24 wadic-cad101 polkitd(authority=local)[1461]: [0;1;39m[0;1;31m[0;1;39mRegistered Authentication Agent for unix-process:29916:280812 (system bus name :1.186 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)[0m
+Jan 28 05:17:26 wadic-cad101 polkitd(authority=local)[1461]: [0;1;39m[0;1;31m[0;1;39mOperator of unix-session:2 successfully authenticated as unix-user:bilal to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.187 [systemctl restart apache2] (owned by unix-user:bilal)[0m
+Jan 28 05:17:26 wadic-cad101 systemd[1]: Starting The Apache HTTP Server...
+-- Subject: Unit apache2.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has begun starting up.
+Jan 28 05:17:26 wadic-cad101 apachectl[29926]: [Sat Jan 28 05:17:26.516376 2023] [so:warn] [pid 29945] AH01574: module php7_module is already loaded, skipping
+Jan 28 05:17:26 wadic-cad101 apachectl[29926]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.0.103. Set the 'ServerName' directive globally to suppress this message
+Jan 28 05:17:26 wadic-cad101 systemd[1]: Started The Apache HTTP Server.
+-- Subject: Unit apache2.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jan 28 05:17:26 wadic-cad101 polkitd(authority=local)[1461]: [0;1;39m[0;1;31m[0;1;39mUnregistered Authentication Agent for unix-process:29916:280812 (system bus name :1.186, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)[0m
+Jan 28 05:17:54 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39mError in cpuinfo: failed to parse processor information from /proc/cpuinfo[0m
+Jan 28 05:18:42 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39m[0128/051842.994720:ERROR:file_io_posix.cc(152)] open /home/bilal/.config/google-chrome/Crash Reports/pending/bec82752-d818-4b05-a113-62099816b669.lock: File exists (17)[0m
+Jan 28 05:19:58 wadic-cad101 sudo[30145]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/var/www/html/slippa ; USER=root ; COMMAND=/usr/sbin/a2dismod php 7.2[0m
+Jan 28 05:19:58 wadic-cad101 sudo[30145]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 05:19:58 wadic-cad101 sudo[30145]: pam_unix(sudo:session): session closed for user root
+Jan 28 05:20:03 wadic-cad101 sudo[30153]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/var/www/html/slippa ; USER=root ; COMMAND=/usr/sbin/a2dismod php7.2[0m
+Jan 28 05:20:03 wadic-cad101 sudo[30153]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 05:20:03 wadic-cad101 sudo[30153]: pam_unix(sudo:session): session closed for user root
+Jan 28 05:20:18 wadic-cad101 sudo[30164]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/var/www/html/slippa ; USER=root ; COMMAND=/usr/sbin/a2enmod php8.1[0m
+Jan 28 05:20:18 wadic-cad101 sudo[30164]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 05:20:18 wadic-cad101 sudo[30164]: pam_unix(sudo:session): session closed for user root
+Jan 28 05:20:24 wadic-cad101 org.gnome.Shell.desktop[4110]: [0;1;39m[0;1;31m[0;1;39mError in cpuinfo: failed to parse processor information from /proc/cpuinfo[0m
+Jan 28 05:21:05 wadic-cad101 sudo[30241]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/var/www/html/slippa ; USER=root ; COMMAND=/usr/bin/update-alternatives --set php /usr/bin/php8.1[0m
+Jan 28 05:21:05 wadic-cad101 sudo[30241]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 05:21:05 wadic-cad101 sudo[30241]: pam_unix(sudo:session): session closed for user root
+Jan 28 05:21:31 wadic-cad101 sudo[30256]: [0;1;39m[0;1;31m[0;1;39m   bilal : TTY=pts/0 ; PWD=/var/www/html/slippa ; USER=root ; COMMAND=/usr/sbin/service apache2 restart[0m
+Jan 28 05:21:31 wadic-cad101 sudo[30256]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 05:21:31 wadic-cad101 systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: Unit apache2.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has begun shutting down.
+Jan 28 05:21:31 wadic-cad101 apachectl[30262]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.0.103. Set the 'ServerName' directive globally to suppress this message
+Jan 28 05:21:31 wadic-cad101 systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: Unit apache2.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has finished shutting down.
+Jan 28 05:21:31 wadic-cad101 systemd[1]: Starting The Apache HTTP Server...
+-- Subject: Unit apache2.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has begun starting up.
+Jan 28 05:21:31 wadic-cad101 apachectl[30267]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.0.103. Set the 'ServerName' directive globally to suppress this message
+Jan 28 05:21:31 wadic-cad101 kernel: apache2[30276]: segfault at 0 ip 00007f141b6c673d sp 00007ffeb9f33d90 error 4 in libphp7.0.so[7f141b497000+390000]
+Jan 28 05:21:31 wadic-cad101 kernel: Code: e9 68 ca ff ff 0f 1f 84 00 00 00 00 00 ff a0 70 01 00 00 66 2e 0f 1f 84 00 00 00 00 00 55 53 48 83 ec 08 48 8b 2d a3 56 3f 00 <8b> 45 00 85 c0 0f 85 e0 00 00 00 48 81 ff 00 0c 00 00 77 5f 48 83
+Jan 28 05:21:31 wadic-cad101 apachectl[30267]: Segmentation fault (core dumped)
+Jan 28 05:21:31 wadic-cad101 apachectl[30267]: Action 'start' failed.
+Jan 28 05:21:31 wadic-cad101 apachectl[30267]: The Apache error log may have more information.
+Jan 28 05:21:31 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited status=139[0m
+Jan 28 05:21:31 wadic-cad101 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Failed with result 'exit-code'.[0m
+Jan 28 05:21:31 wadic-cad101 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start The Apache HTTP Server.[0m
+-- Subject: Unit apache2.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has failed.
+-- 
+-- The result is RESULT.
+Jan 28 05:21:31 wadic-cad101 sudo[30256]: pam_unix(sudo:session): session closed for user root
